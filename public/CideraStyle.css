@@ -1,0 +1,216 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Menetapkan posisi relatif pada body */
+}
+
+/* section {
+    height: 80vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+} */
+
+.about-section div {
+    display: flex; /* Tambahkan properti flex */
+    flex-direction: column; /* Atur flex direction ke column */
+    align-items: center; /* Pusatkan item secara horizontal */
+}
+
+
+.about-section h1 {
+    margin-left: 30px;
+    margin-top: 45px;
+    font-size: 30px; /* Aturan kedua */
+    width: 60%;
+}
+
+.about-section {
+    height: 80vh;
+    background-color: #FFFEFE;
+    position: relative;
+}
+
+.about-section h1 span {
+    font-weight: bold;
+}
+
+.about-section h1 .red {
+    color:#CD4631;
+}
+
+.about-section h1 .black {
+    color: #000000;
+}
+
+.about-section p {
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 60%;
+}
+
+.info-section {
+    background-color: #F3E8E6;
+    height: 120vh;
+}
+
+.logosection {
+    position: absolute;
+    top: -25px; /* Sesuaikan nilai ini untuk menentukan tinggi relatif logo terhadap card */
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: 2; /* Pastikan logo di atas card dan section about */
+}
+
+
+.detail-container .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the cards are above the background colors */
+}
+
+.detail-container .card {
+    text-align: justify;
+    background-color: #D9D9D9;
+    padding: 30px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: black;
+    min-width: 260px; /* Lebar minimum card */
+    max-width: 300px; /* Lebar maksimum card */
+    min-height: 100px; /* Lebar minimum card */
+}
+
+.logo{
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 13rem;
+}
+
+.CideraAsset1{
+    margin-top: 38px;
+    margin-right: 70px ;
+    width : 450px;
+}
+
+.info_desc{
+    margin-top: 10rem;
+    margin-left: 14rem;
+}
+
+.infodesc1{
+    margin-top: 6rem;
+    margin-left: 40rem;
+    width: 35%;
+}
+
+.cidera{
+    margin-top: 10rem;
+    margin-right: 14rem;
+    width: 300px;
+}
+
+.cidera1{
+    margin-top: 6rem;;
+    margin-left: 14rem;
+    width: 300px;
+}
+
+.cidera-list{
+    margin-top: 20px;
+}
+
+.cideralist1{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.obat-section .obat{
+    margin-left: 14rem;
+    margin-top: 4rem;
+    width:300px ;
+}
+
+.obatdesc{
+    margin-top: 5rem;
+    margin-left: 40rem;
+    width: 35%;
+}
+
+.obat-section {
+    background-color: #FFFEFE;
+    height: 55vh;
+}
+
+.information-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #81ADC8;
+}
+
+.information-section .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap; /* Agar kartu bisa pindah ke baris baru jika tidak cukup ruang */
+}
+
+.information-section .card {
+    background-color: #F3E8E6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: 1px; /* Sesuaikan nilai margin untuk mengurangi jarak antara card */
+    max-width: 700px;
+    max-height: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-section .card img {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.information-section{
+    height: 85vh;
+}
+
+.Hospital_detail{
+    text-align: justify;
+    text-align: 1p;
+}
+
+.caution-section{
+    text-align: center;
+    background: #CD4631;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caution {
+    color: black; /* Tambahkan warna teks sesuai kebutuhan */
+    font-style: italic;
+}
+
+
+
+
+

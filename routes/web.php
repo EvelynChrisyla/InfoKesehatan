@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/login', function () {
     return view('Login');
 });
@@ -24,3 +25,7 @@ Route::get('/login', function () {
 Route::get('/lukaringan', function () {
     return view('lukaringan');
 });
+
+// Route::get('/', function () {
+//     return view('cidera');
+// });

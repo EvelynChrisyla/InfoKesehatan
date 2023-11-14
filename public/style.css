@@ -1,0 +1,77 @@
+body{
+    background-color: #F3E8E6;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.login-image{
+    margin-top: 60px;
+    margin-left: 75px; 
+}
+
+.signin-container {
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 19rem;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.logoasset{
+    margin-left: 15px;
+}
+
+.logintext {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* .signintext{
+    font-size: 23px;
+} */
+
+.login-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%; /* Menetapkan lebar formulir agar sesuai dengan lebar .signin-container */
+}
+
+label {
+    margin-top: 10px;
+    text-align: left; /* Menetapkan teks label agar kiri */
+}
+
+input {
+    margin-top: 10px;
+    width: 100%; /* Menetapkan lebar input agar sesuai dengan lebar formulir */
+    padding: 5.5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-width: 1.5px;
+}
+
+button {
+    border-radius: 10px;
+    width: 20%; /* Menetapkan lebar tombol agar sesuai dengan lebar formulir */
+    padding: 6px;
+    margin-top: 68px;
+    background-color: #CD4631;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+

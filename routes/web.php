@@ -17,10 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/login', function () {
     return view('Login');
 });
 
-Route::get('/cidera', function () {
-    return view('cidera');
+Route::get('/lukaringan', function () {
+    return view('lukaringan');
 });
+
+// Route::get('/', function () {
+//     return view('cidera');
+// });

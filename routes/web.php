@@ -26,6 +26,10 @@ Route::get('/lukaringan', function () {
     return view('lukaringan');
 });
 
+Route::get('/loginnew', function () {
+    return view('loginnew');
+});
+
 // Route::get('/', function () {
 //     return view('cidera');
 // });

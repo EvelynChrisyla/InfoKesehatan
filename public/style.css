@@ -10,14 +10,7 @@ body{
     margin-left: 75px; 
 }
 
-.signin-container {
-    margin-top: 7rem;
-    display: flex;
-    align-items: center;
-    margin-bottom: 19rem;
-    flex-direction: column;
-    margin-left: 5rem;
-}
+
 
 .logoasset{
     margin-left: 15px;

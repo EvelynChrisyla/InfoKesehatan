@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    position: relative; /* Menetapkan posisi relatif pada body */
+    position: relative;
 }
 
 /* section {
@@ -31,9 +31,10 @@ body {
 }
 
 .about-section {
-    height: 80vh;
-    background-color: #FFFEFE;
+    min-height: 75vh; /* Atur min-height pada about-section */
     position: relative;
+    background-color: #FFFEFE;
+    margin-bottom: 20px;
 }
 
 .about-section h1 span {
@@ -58,6 +59,7 @@ body {
 .info-section {
     background-color: #F3E8E6;
     height: 120vh;
+    margin-bottom: 20px;
 }
 
 .logosection {
@@ -80,16 +82,18 @@ body {
     z-index: 1; /* Ensure the cards are above the background colors */
 }
 
+.detail-container{
+    margin-top: 20px;
+}
+
 .detail-container .card {
-    text-align: justify;
-    background-color: #D9D9D9;
-    padding: 30px 20px;
-    margin: 0 10px;
+    margin: 0 10px 20px; /* Sesuaikan margin untuk memberi ruang antar card */
+    padding: 20px; /* Sesuaikan padding untuk memberi ruang di dalam card */
     border-radius: 10px;
     color: black;
-    min-width: 260px; /* Lebar minimum card */
-    max-width: 300px; /* Lebar maksimum card */
-    min-height: 100px; /* Lebar minimum card */
+    min-width: 260px;
+    max-width: 300px;
+    min-height: 100px;
 }
 
 .logo{
@@ -109,17 +113,23 @@ body {
     margin-left: 14rem;
 }
 
-.infodesc1{
+/* .infodesc1{
     margin-top: 6rem;
     margin-left: 40rem;
     width: 35%;
+} */
+
+.infodesc1 {
+    margin-top: 8rem;
+    margin-left: 40rem;
+    width: 50%; /* Sesuaikan width agar tidak terlalu lebar */
 }
 
-.cidera{
+/* .cidera{
     margin-top: 10rem;
     margin-right: 14rem;
     width: 300px;
-}
+} */
 
 .cidera1{
     margin-top: 6rem;;
@@ -136,12 +146,6 @@ body {
     margin-right: 100px;
 }
 
-.obat-section .obat{
-    margin-left: 14rem;
-    margin-top: 4rem;
-    width:300px ;
-}
-
 .obatdesc{
     margin-top: 5rem;
     margin-left: 40rem;
@@ -151,19 +155,40 @@ body {
 .obat-section {
     background-color: #FFFEFE;
     height: 55vh;
+    margin-bottom: 20px;
 }
+
+.info-section .cidera {
+    margin-left: 225px; /* Sesuaikan margin untuk memberi ruang di sisi kiri */
+    width: 300px; 
+    margin-top: 10rem;  
+    margin-right: 14rem;  
+}
+
+.obat-section .obat {
+    margin-left: 225px;  
+    width: 300px;
+    margin-top: 70px;
+    /* margin-right: 9rem;  */
+}
+/* 
+.information-section{
+    height: 85vh;
+} */
 
 .information-section {
     text-align: center;
     padding: 20px;
     background-color: #81ADC8;
+    height: 85vh;
+    margin-bottom: 20px;
 }
 
 .information-section .card-container {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    flex-wrap: wrap; /* Agar kartu bisa pindah ke baris baru jika tidak cukup ruang */
+    flex-wrap: wrap; 
 }
 
 .information-section .card {
@@ -172,7 +197,7 @@ body {
     border-radius: 10px;
     width: 300px;
     text-align: center;
-    margin: 1px; /* Sesuaikan nilai margin untuk mengurangi jarak antara card */
+    margin: 10px; 
     max-width: 700px;
     max-height: 800px;
     height: auto;
@@ -187,9 +212,6 @@ body {
     margin-bottom: 10px;
 }
 
-.information-section{
-    height: 85vh;
-}
 
 .Hospital_detail{
     text-align: justify;

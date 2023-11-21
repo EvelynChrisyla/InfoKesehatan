@@ -107,7 +107,7 @@
     <section class="obat-section" id="">
         <img class="obat" src="/img/obat.png" style="float:left">
         <div class="obatdesc">
-            <b>Obat untuk Mengatasi Luka Ringan</b>
+        <b>Obat untuk Mengatasi Luka Ringan</b>
             <ul class="obatlist">
                 <li>Povidone Iodine (Betadine)</li>
                 <li>Cedexomer Iodine (Iodosrb)</li>

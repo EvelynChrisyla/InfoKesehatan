@@ -29,6 +29,9 @@ Route::get('/lukaringan', function () {
 Route::get('/loginnew', function () {
     return view('loginnew');
 });
+Route::get('/penyakitmenular', function () {
+    return view('penyakitmenular');
+});
 
 // Route::get('/', function () {
 //     return view('cidera');

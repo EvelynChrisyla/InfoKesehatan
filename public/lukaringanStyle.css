@@ -61,7 +61,12 @@ body {
     height: 120vh;
     margin-bottom: 20px;
 }
-
+.item{
+    border: none !important; 
+    width: 20% !important; 
+    margin-top: -1rem !important; 
+    color: white !important;
+}
 .logosection {
     position: absolute;
     top: -25px; /* Sesuaikan nilai ini untuk menentukan tinggi relatif logo terhadap card */

@@ -52,7 +52,7 @@
     </div>
     <section class="detail-container">
         <div class="card-container">
-          <div class="card" style="margin-top: 10px; margin-bottom: 20px;">
+          <div class="card" style="margin-top: 10px; margin-bottom: 20px; background-color: #D9D9D9 ;border: none;">
             <div class="card-body">
               <img class="logosection" src="/img/logosection.png" style="width:50px;">
               Luka ringan sering kali diabaikan, tetapi sebenarnya bisa menjadi sumber 
@@ -60,7 +60,7 @@
             </div>
           </div>
       
-          <div class="card" style="margin-top: 10px; margin-bottom: 20px;">
+          <div class="card" style="margin-top: 10px; margin-bottom: 20px;background-color: #D9D9D9 ;border: none;">
             <div class="card-body">
               <img class="logosection" src="/img/logosection1.png" style="width:50px;">
               Menurut CDC, luka ringan yang diabaikan dapat meningkatkan risiko infeksi 
@@ -68,7 +68,7 @@
             </div>
           </div>
       
-          <div class="card" style="margin-top: 10px; margin-bottom: 20px;">
+          <div class="card" style="margin-top: 10px; margin-bottom: 20px;background-color: #D9D9D9 ;border: none;">
             <div class="card-body">
               <img class="logosection" src="/img/logosection2.png" style="width:50px;">
               Umumnya, luka ringan tidak memerlukan penanganan serius 
@@ -97,45 +97,13 @@
         </div>
     </div> -->
      
-    {{-- <div  class="container-fluid rounded-top-5>
-      <div id="News" class="d-flex flex-column flex-lg-row   justify-content-lg-evenly js-scroll fade-in " style="width: 100%">
-        
-          <div id="item" class="card rounded-4 "
-              style="border: none; background-color: #D9D9D9;margin-top: -1rem;">
-              <div class="card-body">
-                  <img class="cardimg" src="{{ asset('img/logosection.png') }}" alt="">
-                  <p class="card-text pb-4 ">Luka ringan sering kali diabaikan, tetapi sebenarnya bisa menjadi sumber
-                    masalah serius jika tidak diobati dengan benar</p>
-              </div>
-          </div>
-
-          <div id="item" class="card rounded-4 my-5 my-lg-0 "
-              style="border: none; background-color: #D9D9D9;">
-              <div class="card-body">
-                  <img class="cardimg " src="{{ asset('img/logosection1.png') }}" alt="">
-                  <p class="card-text pb-4 pb-lg-0"> Menurut CDC, luka ringan yang diabaikan dapat meningkatkan risiko infeksi
-                    dan komplikasi, terutama pada usia 20-30 tahun.</p>
-              </div>
-          </div>
-
-          <div id="item" class="card rounded-4 "
-              style="border: none; background-color: #D9D9D9;">
-              <div class="card-body">
-                  <img class="cardimg" src="{{ asset('img/logosection2.png') }}" alt="">
-                  <p class="card-text pb-4 pb-lg-0"> Umumnya, luka ringan tidak memerlukan penanganan serius
-                    sehingga dapat di tolong dengan pertolongan pertama saja
-                  </p>
-              </div>
-          </div>
-      </div>
-  </div> --}}
 
     <section class="info-section">
         <!-- Isi untuk bagian Info -->
-        <img src="/img/cidera1.png" class="cidera" style="float:right">
-        <div class="info_desc">
-            <b>Macam - Macam Luka Ringan:</b>
-            <ul class="cidera-list">
+        <img src="/img/cidera2.png" class="cidera1" style="float:left">
+        <div class="infodesc1">
+            <b>Tahapan Pertolongan Pertama Apabila Mengalami Luka Ringan:</b>
+            <ul class="cideralist1">
                 <li>Luka Lecet</li>
                 <li>Luka Sayat</li>
                 <li>Luka Robek</li>

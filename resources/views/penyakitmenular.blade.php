@@ -9,8 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="lukaringanStyle.css">
+    <style>
+        h2 {
+            ;
+        }
+    </style>
+    <link rel="stylesheet" href="lukaberatStyle.css">
     <title>Login</title>
 
 </head>
@@ -23,17 +27,21 @@
         <div class="container-fluid container-lg overflow-hidden" style="margin-bottom: 13rem;">
             <div class="row align-items-center ">
                 <div class="col-lg-7 col-12 order-lg-1 order-0"> <!-- Tambahkan kelas col-lg-7 di sini -->
-                    <img style="width: 100%; min-width: 40%;" src="{{ asset('img/CideraAsset1.png') }}" alt="">
+                    <img style="width: 100%; min-width: 40%;" src="{{ asset('img/penyakitnular.png') }}" alt="">
                 </div>
                 <div class="col-lg-5  order-lg-0 order-1 mt-lg-0 mt-3 text-center text-lg-start">
                     <!-- Tambahkan kelas col-lg-5 di sini -->
                     <div class="animationTeks1 " id="">
-                        <h2 class="TMD text-center text-lg-start"><b>Seputar<br>Penyakit Menular<br>Untuk Hidup
-                                Sehat</b></h2>
+                        <section class="about-section" id="">
+                        <h1>
+                            <span class="black">Seputar</span><br>
+                            <span class="red">Penyakit Menular</span><br>
+                            <span class="black">Untuk Hidup Sehat</span>
+                        </h1>
+                    </section>
+
                         <p class="text-center text-lg-start fs-5">
-                            Luka ringan dapat terjadi ketika terjadi robekan pada permukaan kulit. Walaupun luka ringan
-                            adalah penyakit yang tidak serius, terbukanya kulit dapat
-                            menyebabkan infeksi yang disebabkan oleh bakteri yang masuk kedalamnya.
+                            Dalam informasi ini kita dapat mengeksplorasi berbagai aspek penyakit menular, termasuk cara penularannya, faktor risiko, dan upaya-upaya pencegahan yang dapat kita lakukan. Peduli terhadap kesehatan kita dan komunitas kita adalah langkah awal menuju kehidupan yang lebih aman dan sehat.
                         </p>
                     </div>
                 </div>
@@ -43,32 +51,32 @@
 
     </div>
     <section class="detail-container">
-      <div class="card-container">
-          <div class="card">
+        <div class="card-container">
+          <div class="card" style="margin-top: 10px; margin-bottom: 20px;">
             <div class="card-body">
               <img class="logosection" src="/img/logosection.png" style="width:50px;">
               Luka ringan sering kali diabaikan, tetapi sebenarnya bisa menjadi sumber 
               masalah serius jika tidak diobati dengan benar
+            </div>
           </div>
-        </div>
-
-          <div class="card">
+      
+          <div class="card" style="margin-top: 10px; margin-bottom: 20px;">
             <div class="card-body">
               <img class="logosection" src="/img/logosection1.png" style="width:50px;">
               Menurut CDC, luka ringan yang diabaikan dapat meningkatkan risiko infeksi 
               dan komplikasi, terutama pada usia 20-30 tahun.
             </div>
           </div>
-
-          <div class="card">
+      
+          <div class="card" style="margin-top: 10px; margin-bottom: 20px;">
             <div class="card-body">
               <img class="logosection" src="/img/logosection2.png" style="width:50px;">
               Umumnya, luka ringan tidak memerlukan penanganan serius 
               sehingga dapat di tolong dengan pertolongan pertama saja
+            </div>
           </div>
         </div>
-      </div>
-  </section>
+      </section>
     <!-- <div class="card-container">
         <div class="card">
             <img class="logosection" src="/img/logosection.png" style="width:50px;">

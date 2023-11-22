@@ -22,21 +22,6 @@ body {
     align-items: center; /* Pusatkan item secara horizontal */
 }
 
-
-.about-section h1 {
-    margin-left: 30px;
-    margin-top: 45px;
-    font-size: 30px; /* Aturan kedua */
-    width: 60%;
-}
-
-.about-section {
-    min-height: 75vh; /* Atur min-height pada about-section */
-    position: relative;
-    background-color: #FFFEFE;
-    margin-bottom: 20px;
-}
-
 .about-section h1 span {
     font-weight: bold;
 }
@@ -47,13 +32,6 @@ body {
 
 .about-section h1 .black {
     color: #000000;
-}
-
-.about-section p {
-    text-align: justify;
-    margin-top: 20px;
-    margin-left: 30px;
-    width: 60%;
 }
 
 .info-section {

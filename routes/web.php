@@ -33,6 +33,15 @@ Route::get('/penyakitmenular', function () {
     return view('penyakitmenular');
 });
 
+Route::get('/bisaular', function () {
+    return view('bisaular');
+});
+
+Route::get('/cidera', function () {
+    return view('cidera');
+});
+
+
 // Route::get('/', function () {
 //     return view('cidera');
 // });

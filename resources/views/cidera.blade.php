@@ -23,21 +23,22 @@
         <div class="container-fluid container-lg overflow-hidden " style="padding-bottom: 9rem">
             <div class="row align-items-center mt-5">
                 <div class="col-lg-7 col-12 order-lg-1 order-0"> <!-- Tambahkan kelas col-lg-7 di sini -->
-                    <img style="width: 100%; min-width: 40%;" src="{{ asset('img/Lukaringan/CideraAsset1.png') }}" alt="">
+                    <img style="width: 90%; min-width: 40%;" src="{{ asset('img/cidera/assetutama.png') }}" alt="">
                 </div>
                 <div class="col-lg-5  order-lg-0 order-1 mt-lg-0 mt-3 text-center text-lg-start">
                     <!-- Tambahkan kelas col-lg-5 di sini -->
                     <div class="animationTeks1 " id="">
                         <section class="about-section" id="">
                             <h1>
-                                <span class="black">Seputar</span><br>
-                                <span class="red">Luka Ringan</span><br>
-                                <span class="black">dan Cara Mengobatinya</span>
+                                <span class="black">Mengenal Apa itu</span><br>
+                                <span class="red">Cidera</span><br>
+                                <span class="black">dan Penanganannya</span>
                             </h1>
                         </section>
 
                         <p class="text-center text-lg-start fs-5">
-                        Luka ringan dapat terjadi ketika terjadi robekan pada permukaan kulit.. Walaupun luka ringan adalah penyakit yang tidak serius, terbukanya kulit dapat menyebabkan infeksi yang disebabkan oleh bakteri yang masuk kedalamnya.
+                        Masih banyak masyarakat awam memahami jika terjadi suatu cidera yang terbesit dalam benak mereka adalah langsung mendatangi tukang urut. Namun apakah cara tersebut efektif dalam mengurangi atau menghilangkan efek dari kondisi cidera tersebut?
+
                         </p>
                     </div>
                 </div>
@@ -54,24 +55,21 @@
                     style="margin-top: 30px; margin-bottom: 10px; background-color: #D9D9D9 ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection.png" style="width:50px;">
-                        Luka ringan sering kali diabaikan, tetapi sebenarnya bisa menjadi sumber masalah serius jika tidak diobati dengan benar
-                    </div>
+                        Cidera adalah kelainan yang terjadi pada tubuh yang mengakibatkan timbulnya nyeri akibat aktifitas gerak yang berlebihan atau kecelakaan.                    </div>
                 </div>
 
                 <div class="card p-4 rounded-4"
                     style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection1.png" style="width:50px;">
-                        Menurut CDC, luka ringan yang diabaikan dapat meningkatkan risiko infeksi dan komplikasi, terutama pada usia 20-30 tahun.
-                    </div>
+                        Pada dasarnya cidera dapat terjadi disebabkan oleh faktor-faktor dari dalam (intrinsik) maupun dari luar (ekstrinsik) yang kurang dijaga dan diperhatikan                     </div>
                 </div>
 
                 <div class="card p-4 rounded-4"
                     style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection2.png" style="width:50px;">
-                        Umumnya, luka ringan tidak memerlukan penanganan serius sehingga dapat di tolong dengan pertolongan pertama saja
-                    </div>
+                        Setelah dilakukan penanganan awal, segera ke dokter untuk dapat dievaluasi lebih lanjut tentang tingkat keparahan cidera yang dialami                    </div>
                 </div>
             </div>
         </div>
@@ -79,52 +77,54 @@
         <div class="container rounded-top-5" style="">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col d-flex justify-content-center align-items-center m-0 ">
-                    <img src="/img/Lukaringan/asset1.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
+                    <img src="/img/cidera/asset1.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Macam - Macam Luka Ringan:</b>
+                    <b>Macam - macam Cidera:</b>
                     <ul class="cideralist1">
-                        <li>Luka Lecet</li>
-                        <li>Luka Sayat </li>
-                        <li>Luka Robe</li>
-                        <li>Luka Bakar</li>
-                        <li>Luka Tusuk</li>
-                        <li>Luka Bedah </li>
+                        <li>Sprain (terkilir / keseleo)</li>
+                        <li>Patah tulang</li>
+                        <li>Dislokasi dan subluksasi</li>
+                        <li>Strain</li>
+                        <li>Cidera Bahu</li>
+                        <li>Cidera siku</li>
+                        <li>Cidera pinggang</li>
+                        <li>Cidera paha</li>
+
                         
                     </ul>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col d-flex justify-content-center  align-items-center m-0">
-                    <img src="/img/Lukaringan/asset2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
+                    <img src="/img/cidera/asset2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Tahapan Pertolongan Pertama Apabila Mengalami Luka Ringan:</b>
+                    <b>Tanda – Tanda Tubuh Saat Mengalami Cidera:</b>
                     <ul class="cideralist1">
-                        <li>Cuci tangan  untuk mencegahi infeksi.</li>
-                        <li>Bersihkan luka menggunakan air yang mengalir.</li>
-                        <li>Keringkan Luka.</li>
-                        <li>Tutup luka dengan kassa steril, gunakan plester untuk merekatkan.</li>
+                        <li>Terjadinya pembengkakan.</li>
+                        <li>Terjadinya pendarahan (bisa terjadi didalam atau luar jaringan).</li>
+                        <li>Peningkatan rasa nyeri pada jaringan yang mengalami trauma.</li>
+                        <li>Peningkatan suhu sekitar jaringan.</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-{{-- kanan menggunakan revers --}}
+
     <div class="container rounded-top-5 " style="">
         <div class="row row-cols-1 row-cols-md-2 g-4 flex-row-reverse">
             <div class="col d-flex align-items-center justify-content-center">
-                <img src="/img/Lukaringan/asset3.png" class="cidera1 m-0 h-75 w-75">
+                <img src="/img/cidera/asset3.png" class="cidera1 m-0 h-75 w-75">
             </div>
             <div class="col d-flex flex-column  justify-content-center">
-                <b>Obat untuk Mengatasi Luka Ringan:</b>
+                <b>Cara Menangani Cidera:</b>
                 <ul class="cideralist1  text-left">
-                        <li>Povidone Iodine (Betadine)</li>
-                        <li>Cedexomer Iodine (Iodosrb)</li>
-                        <li>Bacitracin</li>
-                        <li>Neosporin</li>
-                        <li>Silver Sulfadiazine</li>   
+                        <li>Lindungi area cedera agar tidak meningkatkan resiko cedera berulang dengan cara membebatnya dengan elastic perban atau dekker.</li>
+                        <li>Segera istirahatkan bagian tubuh yang mengalami trauma dengan tidak menggerakkanya.</li>
+                        <li>Gunakan es batu atau air dingin saat infalasi untuk menghambatnya .</li>
+
                 </ul>
             </div>
         </div>

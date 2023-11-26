@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="lukaberatStyle.css">
+    <link rel="stylesheet" href="Page_Style.css">
     <title>Login</title>
 
 </head>
@@ -57,8 +57,8 @@
                     style="margin-top: 30px; margin-bottom: 10px; background-color: #D9D9D9 ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection.png" style="width:50px;">
-                        Luka ringan sering kali diabaikan, tetapi sebenarnya bisa menjadi sumber
-                        masalah serius jika tidak diobati dengan benar
+                        Penyakit menular adalah ancaman serius bagi kesehatan global, dan merupakan penyebab  kematian di seluruh 
+                        dunia.
                     </div>
                 </div>
 
@@ -66,8 +66,7 @@
                     style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection1.png" style="width:50px;">
-                        Menurut CDC, luka ringan yang diabaikan dapat meningkatkan risiko infeksi
-                        dan komplikasi, terutama pada usia 20-30 tahun.
+                        Menurut World Health Organization (WHO), usia 20-30 tahun merupakan rentang usia yang rentan terhadap banyak penyakit menular.
                     </div>
                 </div>
 
@@ -75,8 +74,7 @@
                     style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection2.png" style="width:50px;">
-                        Umumnya, luka ringan tidak memerlukan penanganan serius
-                        sehingga dapat di tolong dengan pertolongan pertama saja
+                        Mari bersama menjaga kesehatan dan mencegah penyakit menular.
                     </div>
                 </div>
             </div>
@@ -85,33 +83,32 @@
         <div class="container rounded-top-5" style="">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col d-flex justify-content-center align-items-center m-0 ">
-                    <img src="/img/cidera2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
+                    <img src="/img/Penyakit menular/asset1.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Tahapan Pertolongan Pertama Apabila Mengalami Luka Ringan:</b>
+                    <b>Macam - macam Penyakit Menular:</b>
                     <ul class="cideralist1">
-                        <li>Luka Lecet</li>
-                        <li>Luka Sayat</li>
-                        <li>Luka Robek</li>
-                        <li>Luka Bakar</li>
-                        <li>Luka Tusuk</li>
-                        <li>Luka Bedah</li>
+                        <li>Tuberkulosis</li>
+                        <li>Demam dengue (DBD) </li>
+                        <li>Infeksi saluran pernapasan akut (ISPA)</li>
+                        <li>Difteri </li>
+                        <li>Penyakit kulit </li>
+                        <li>Malaria</li>
+                        <li>Acquired Immune Deficiency Syndrome (AIDS)</li>
                     </ul>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col d-flex justify-content-center  align-items-center m-0">
-                    <img src="/img/cidera2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
+                    <img src="/img/Penyakit menular/asset2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Tahapan Pertolongan Pertama Apabila Mengalami Luka Ringan:</b>
+                    <b>Penyakit Menular Sendiri adalah Infeksi yang Disebabkan oleh Mikro Organisme:</b>
                     <ul class="cideralist1">
-                        <li>Luka Lecet</li>
-                        <li>Luka Sayat</li>
-                        <li>Luka Robek</li>
-                        <li>Luka Bakar</li>
-                        <li>Luka Tusuk</li>
-                        <li>Luka Bedah</li>
+                        <li>Virus</li>
+                        <li>Bakteri</li>
+                        <li>Jamur</li>
+                        <li>Parasit</li>
                     </ul>
                 </div>
             </div>
@@ -122,17 +119,15 @@
     <div class="container rounded-top-5 " style="">
         <div class="row row-cols-1 row-cols-md-2 g-4 flex-row-reverse">
             <div class="col d-flex align-items-center justify-content-center">
-                <img src="/img/obat.png" class="cidera1 m-0 h-75 w-75">
+                <img src="/img/Penyakit menular/asset3.png" class="cidera1 m-0 h-75 w-75">
             </div>
             <div class="col d-flex flex-column  justify-content-center">
-                <b>Tahapan Pertolongan Pertama Apabila Mengalami Luka Ringan:</b>
+                <b>Cara Mengatasi Penyakit Menular:</b>
                 <ul class="cideralist1  text-left">
-                    <li>Luka Lecet</li>
-                    <li>Luka Sayat</li>
-                    <li>Luka Robek</li>
-                    <li>Luka Bakar</li>
-                    <li>Luka Tusuk</li>
-                    <li>Luka Bedah</li>
+                        <li>Mengurangi kontak dengan orang yang sakit.</li>
+                        <li>Mengurangi kontak dengan binatang pembawa penyakit.</li>
+                        <li>Mengenakan masker.</li>
+                        <li>Tidak mengunjungi tempat yang sedang terdapat wabah.</li>   
                 </ul>
             </div>
         </div>

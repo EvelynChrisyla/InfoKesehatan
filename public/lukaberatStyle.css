@@ -36,8 +36,7 @@ body {
 
 .info-section {
     background-color: #F3E8E6;
-    height: 120vh;
-    margin-bottom: 20px;
+    
 }
 .item{
     border: none !important; 
@@ -62,7 +61,7 @@ body {
     top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* z-index: 1; Ensure the cards are above the background colors */
+     z-index: 1;
 }
 
 .detail-container{
@@ -70,8 +69,8 @@ body {
 }
 
 .detail-container .card {
-    margin: 0 10px 20px; /* Sesuaikan margin untuk memberi ruang antar card */
-    padding: 20px; /* Sesuaikan padding untuk memberi ruang di dalam card */
+    margin: 0 10px 20px; 
+    padding: 20px;
     border-radius: 10px;
     color: black;
     min-width: 260px;
@@ -89,6 +88,7 @@ body {
     margin-top: 38px;
     margin-right: 70px ;
     width : 450px;
+    text-align: center;
 }
 
 .info_desc{
@@ -138,7 +138,7 @@ body {
 .obat-section {
     background-color: #FFFEFE;
     height: 55vh;
-    margin-bottom: 20px;
+    
 }
 
 .info-section .cidera {
@@ -161,10 +161,9 @@ body {
 
 .information-section {
     text-align: center;
-    padding: 20px;
+    padding: 3rem;
     background-color: #81ADC8;
-    height: 85vh;
-    margin-bottom: 20px;
+
 }
 
 .information-section .card-container {
@@ -195,7 +194,6 @@ body {
     margin-bottom: 10px;
 }
 
-
 .Hospital_detail{
     text-align: justify;
     text-align: 1p;
@@ -204,7 +202,6 @@ body {
 .caution-section{
     text-align: center;
     background: #CD4631;
-    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: center;

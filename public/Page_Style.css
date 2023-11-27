@@ -117,10 +117,11 @@ body {
 } */
 
 .cidera1{
-    margin-top: 6rem;;
+    margin-top: 10rem;
     margin-left: 14rem;
-    width: 300px;
+    width: 60%;
 }
+
 
 .cidera-list{
     margin-top: 20px;
@@ -214,6 +215,64 @@ body {
     font-style: italic;
 }
 
+
+.nav-button{
+    font-size: 20px; 
+}
+
+.login-button{
+    background-color: red; 
+    font-weight: bold; 
+    margin-right: 70px; 
+    padding-right: 25px;
+    padding-left: 25px; 
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #FFFFFF;
+    border-radius: 11px;
+}
+
+footer{
+    background-color: rgb(55,55,55);
+}
+
+.footer-text-title{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-text-des{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-text-about-us-title{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: start;
+    width: 229px;
+}
+
+.footer-text-about-us-des{
+    color: white;
+    font-size: 16px;
+    max-width: 229px;
+}
+
+.footer-layout{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 

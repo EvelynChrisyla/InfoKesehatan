@@ -6,6 +6,8 @@ body {
     position: relative;
 }
 
+
+
 /* section {
     height: 80vh;
     display: flex; 
@@ -196,7 +198,7 @@ body {
 
 .Hospital_detail{
     text-align: justify;
-    text-align: 1p;
+    text-align: 1px;
 }
 
 .caution-section{

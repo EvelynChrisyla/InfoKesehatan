@@ -41,8 +41,8 @@
     <div class="container-fluid container-lg overflow-hidden   ">
         <div class="container-fluid container-lg overflow-hidden " style="padding-bottom: 9rem">
             <div class="row align-items-center mt-5 flex-row-reverse">
-                <div class="col d-flex justify-content-end align-items-center m-0  "> <!-- Tambahkan kelas col-lg-7 di sini -->
-                    <img style="width: 75%; min-width: 40%;" src="{{ asset('img/bisa ular/assetutama.png') }}" alt="">
+                <div class="col d-flex justify-content-center align-items-center m-0  "> <!-- Tambahkan kelas col-lg-7 di sini -->
+                    <img style="width: 100%; min-width: 40%;" src="{{ asset('img/bisa ular/bisaular.png') }}" alt="">
                 </div>
                 <div class="col-lg-5  order-lg-0 order-1 mt-lg-0 mt-3 text-center text-lg-start">
                     <!-- Tambahkan kelas col-lg-5 di sini -->

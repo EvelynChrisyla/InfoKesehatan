@@ -9,7 +9,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "PlusJakartaSans-bold";
+            src: {{ asset('fonts/PlusJakartaSans-Bold.ttf') }}
+            
+        }
+        .fonts-bold {
+            font-family: 'PlusJakartaSans-bold';
 
+        }
+        @font-face {
+            font-family: "PlusJakartaSans-Medium";
+            src: {{ asset('fonts/PlusJakartaSans-Medium.ttf') }}
+            
+        }
+        .fonts-medium {
+            font-family: 'PlusJakartaSans-Medium';
+
+        }
+    </style>
     <link rel="stylesheet" href="Page_Style.css">
     <title>Solusi Penolongan Pertama</title>
 
@@ -21,18 +40,18 @@
     </nav>
     <div class="container-fluid container-lg overflow-hidden   ">
         <div class="container-fluid container-lg overflow-hidden " style="padding-bottom: 9rem">
-            <div class="row align-items-center mt-5">
-                <div class="col-lg-7 col-12 order-lg-1 order-0"> <!-- Tambahkan kelas col-lg-7 di sini -->
-                    <img style="width: 100%; min-width: 40%;" src="{{ asset('img/bisa ular/assetutama.png') }}" alt="">
+            <div class="row align-items-center mt-5 flex-row-reverse">
+                <div class="col d-flex justify-content-center align-items-center m-0  "> <!-- Tambahkan kelas col-lg-7 di sini -->
+                    <img style="width: 100%; min-width: 40%;" src="{{ asset('img/bisa ular/bisaular.png') }}" alt="">
                 </div>
                 <div class="col-lg-5  order-lg-0 order-1 mt-lg-0 mt-3 text-center text-lg-start">
                     <!-- Tambahkan kelas col-lg-5 di sini -->
                     <div class="animationTeks1 " id="">
                         <section class="about-section" id="">
                             <h1>
-                                <span class="black">Mengenai</span><br>
-                                <span class="red">Bisa Ular </span><br>
-                                <span class="black">dan Pertolongan Pertamanya</span>
+                                <span class="black fonts-bold">Mengenai</span>
+                                <span class="red fonts-bold">Bisa Ular </span><br>
+                                <span class="black fonts-bold">dan Pertolongan Pertamanya</span>
                             </h1>
                         </section>
 
@@ -52,7 +71,7 @@
         <div class="container " style = "transform: translateY(-6rem); ">
             <div class="card-group gap-5 ">
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px; background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px; background-color: #E9C46A ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection.png" style="width:50px;">
                         Di tengah masyarakat Indonesia, pengetahuan mengenai penanganan pertama terinfeksi bisa ular masih tergolong kurang.
@@ -60,7 +79,7 @@
                 </div>
 
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px;background-color: #E9C46A ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection1.png" style="width:50px;">
                         Berdasarkan buku “Guidelines For Management Of 2 Snake Bites”, Indonesia mencatat 20 kematian pertahun akibat gigitan ular.
@@ -68,9 +87,9 @@
                 </div>
 
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px;background-color: #E9C46A ;border: none;">
                     <div class="card-body">
-                        <img class="logosection" src="/img/logosection2.png" style="width:50px;">
+                        <img class="logosection" src="/img/logo3.png" style="width:50px;">
                         Terinfeksi bisa ular memerlukan penanganan pertama yang tepat dan perlu ditindaklanjuti ke instansi kesehatan terdekat.
                     </div>
                 </div>
@@ -83,8 +102,8 @@
                     <img src="/img/bisa ular/asset1.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Macam - Macam Toksin dari Bisa Ular: </b>
-                    <ul class="cideralist1">
+                    <p class="fonts-bold fs-4 fw-bolder">Macam - Macam Toksin dari Bisa Ular: </p>
+                    <ul class="cideralist1  m-0">
                         <li>Neurotoksin (menyerang sistem saraf)</li>
                         <li>Hemotoksin (menyerang sistem peredaran darah)</li>
                         <li>Kardiotoksin (menyerang jantung)</li>
@@ -101,8 +120,8 @@
                     <img src="/img/bisa ular/asset2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Yang Harus Dilakukan Pertama Ketika Terkena Bisa Ular:</b>
-                    <ul class="cideralist1">
+                    <p class="fonts-bold fs-4 fw-bolder m-0">Yang Harus Dilakukan Pertama Ketika Terkena Bisa Ular:</p>
+                    <ul class="cideralist1  m-0 py-3">
                         <li>Pastikan korban tetap tenang.</li>
                         <li>Minimalkan gerakan korban agar bisa tidak cepat menyebar.</li>
                         <li>Jaga area gigitan tetap berada di bawah jantung.</li>
@@ -118,11 +137,11 @@
     <div class="container rounded-top-5 " style="">
         <div class="row row-cols-1 row-cols-md-2 g-4 flex-row-reverse">
             <div class="col d-flex align-items-center justify-content-center">
-                <img src="/img/bisa ular/asset3.png" class="cidera1 m-0 h-75 w-75">
+                <img src="/img/bisa ular/bisaularbawah.png" class="cidera1 m-0 h-75 w-75">
             </div>
             <div class="col d-flex flex-column  justify-content-center">
-                <b>Penting Untuk Diingat Ketika Terinfeksi Bisa Ular:</b>
-                <ul class="cideralist1  text-left">
+                <p class="fonts-bold fs-4 fw-bolder m-0">Penting Untuk Diingat Ketika Terinfeksi Bisa Ular:</p>
+                <ul class="cideralist1  text-left m-0 py-3">
                         <li>Jangan mengikat bagian tubuh tertentu.</li>
                         <li>Jangan menyentuh lokasi gigitan ular.</li>
                         <li>Jangan mencoba menghisap bisa ular.</li>
@@ -135,10 +154,7 @@
     </div>
 
     <section class="information-section " id="">
-        <div class="information_title">
-            <b>Alamat Klinik atau Rumah Sakit</b>
-        </div>
-
+        <p class="fw-bolder fs-2 fonts-bold">Alamat Klinik atau Rumah Sakit</p>
         <div class="card-container card-group gap-5 container-fluid   ">
             <div class="card rounded-4">
                 <b>RS Medika Permata Hijau</b>

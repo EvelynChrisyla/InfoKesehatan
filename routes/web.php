@@ -46,7 +46,20 @@ Route::get('/homepage', function() {
 });
 
 
+Route::get('/ciderapage', [App\Http\Controllers\homepagecontroller::class, 'cidera'])->name('cidera');
 
+Route::get('/lukaringanpage', [App\Http\Controllers\homepagecontroller::class, 'lukaringan'])->name('lukaringan');
+
+Route::get('/bisaularpage', [App\Http\Controllers\homepagecontroller::class, 'bisaular'])->name('bisaular');
+
+Route::get('/penyakitmenularpage', [App\Http\Controllers\homepagecontroller::class, 'penyakitmenular'])->name('penyakitmenular');
+
+// Route untuk Nav Bar
+Route::get('/homepage', [App\Http\Controllers\homepagecontroller::class, 'beranda'])->name('beranda');
+
+Route::get('/tentang', [App\Http\Controllers\homepagecontroller::class, 'tentang'])->name('tentang');
+
+Route::get('/kontak', [App\Http\Controllers\homepagecontroller::class, 'kontak'])->name('kontak');
 // Route::get('/', function () {
 //     return view('cidera');
 // });

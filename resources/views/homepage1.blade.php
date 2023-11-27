@@ -21,7 +21,7 @@
         <!-- <a class="navbar-brand" href="#">
             <img src="img/logoasset.png" alt="" style="width:80%; margin-left: 10px;">
         </a> -->
-        <nav class="navbar">
+        <!-- <nav class="navbar">
             <div class="container-fluid">
             <div class="navbar-brand">
                 <img src="img/logoasset.png" alt="Logo" class="Logo">
@@ -41,7 +41,30 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <img class="logo" src="/img/logoasset.png" alt="" style="margin-left: 70px;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a class="nav-link active nav-button" aria-current="page" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active nav-button" aria-current="page" href="#">Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active nav-button" aria-current="page" href="#">Kontak</a>
+        </li>
+      </ul>
+    </div>
+    <a class="login-button" href="login" role="button">Log in</a>
+  </div>
+</nav>
 
 
     
@@ -211,10 +234,27 @@
 
     <section class="caution-section d-flex ">
         <div class="caution py-3"> 
-            <p class="m-0 ">Peringatan jika Anda sedang mengalami penyakit yang mengganggu kesehatan, layanan ini tidak
-            direkomendasikan untuk Anda. Silahkan menghubungi 119</p>
+        <footer>
+        <div class="footer-layout">
+            <div style="padding-right: 800px">
+                <img src="/img/logoasset.png" alt="" style="padding-bottom: 10px; padding-top: 40px; width:80%;">
+                <p class="footer-text-des">PT. Info Kesehatan Indonesia</p>
+                <p class="footer-text-des">infokesehatan24@gmail.com</p>
+                <p class="footer-text-des">JL Palmerah Barat No. 5</p>
+                <p class="footer-text-des">082234146060</p>
+                <p class="footer-text-des">Jakarta, Indonesia</p>
+            </div>
+
+            <div class="about-us">
+                <p class="footer-text-about-us-title">About Us</p>
+                <p class="footer-text-about-us-des">Kami adalah sumber informasi kesehatan desa yang andal, menyediakan jadwal klinik dan hasil pemantauan kesehatan untuk meningkatkan kesejahteraan masyarakat desa.</p>
+            </div>
+        </div>
+    </footer>
         </div>
     </section>
+
+    
 </body>
 
 </html>

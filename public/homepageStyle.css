@@ -313,20 +313,71 @@ body {
     text-align: 1p;
 }
 
-.caution-section{
-    text-align: center;
-    background: #CD4631;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.caution {
-    color: black; /* Tambahkan warna teks sesuai kebutuhan */
+/* .caution {
+    color: white; 
     font-style: italic;
 }
 
 
 
+.caution-section {
+    display: flex;
+    text-align: center;
+    background: #373737;
+    display: flex;
+    align-items: center;
+    color: #F3E8E6;
 
-
+  }
+  
+  .footer-layout {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .about-us {
+    margin-left: 10px;
+    max-width: 300px; 
+  } */
+  .caution-section {
+    display: flex;
+    text-align: center;
+    background: #373737;
+    color: #F3E8E6;
+    overflow: hidden; /* To contain floated content */
+  }
+  
+  .footer-layout {
+    margin-left: 60px;
+    margin-right: 120px; /* Increase the right margin for more space */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    width: calc(100% - 180px); /* Subtracting 180px for the left and right margin */
+  }
+  
+  .about-us {
+    max-width: 800px; /* Increase the max-width for more space */
+  }
+  
+  .about-us p {
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+  /* Optional: Add media query for responsive design */
+  @media (max-width: 768px) {
+    .footer-layout {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .about-us {
+      max-width: 100%;
+    }
+  }
+  

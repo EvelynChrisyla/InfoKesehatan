@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="Page_Style.css">
-    <title>Luka Ringan</title>
+    <title>Solusi Penolongan Pertama</title>
 
 </head>
 

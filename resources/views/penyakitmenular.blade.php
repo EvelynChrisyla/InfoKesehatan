@@ -10,17 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    <link rel="stylesheet" href="lukaberatStyle.css">
-=======
-    <link rel="stylesheet" href="Page_Style.css">
->>>>>>> bffd9a50f4e1c37a88612efa335766a1f69a9554
-    <title>Login</title>
-=======
     <link rel="stylesheet" href="Page_Style.css">
     <title>Penyakit Menular</title>
->>>>>>> Stashed changes
 
 </head>
 

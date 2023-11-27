@@ -11,11 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="Page_Style.css">
-<<<<<<< HEAD
     <title>Bisa Ular</title>
-=======
-    <title>Login</title>
->>>>>>> bffd9a50f4e1c37a88612efa335766a1f69a9554
 
 </head>
 

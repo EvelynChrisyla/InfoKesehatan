@@ -4,9 +4,143 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    
+}
+/* 
+.card-section {
+    padding: 3rem;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem; 
+    flex-wrap: nowrap; 
+}
+
+.card {
+    background-color: #F3E8E6;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%; 
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem; 
+}
+
+.card img {
+    width: 80%; 
+    margin-bottom: 1rem; 
+}
+
+.card p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.card-section h2 {
+    margin-bottom: 1rem;
+} */
+
+.card-section {
+    padding: 3rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 1px;
+    column-gap: 0;
+      
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3E8E6;
+    border-radius: 10px;
+    width: 160px;
+    height: 100px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.card-body{
+    align-items: center;
+}
+
+.card-section .card-img-top {
+    margin-top: 10px; 
+}
+
+.first-aid-section {
+    text-align: center;
+}
+
+.first-aid-section h2 {
+    margin-left: 85px;
+    text-align: left;
+}
+
+.first-aid-section p {
+    margin: 0 20%; /* Sesuaikan margin dan lebar sesuai kebutuhan */
+    text-align: left;
+}
+
+.btn-danger {
+    /* Tambahkan properti CSS sesuai kebutuhan Anda */
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 96px;
+    border-width: 0px;
+    background-color: #CD4631;
+    box-shadow: 0px 8px 8px rgba(11, 9, 9, 0.10);
+}
+
+.Logo {
+    width: 80%;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.first-aid-section p {
+    margin-left: 85px;
+    font-size: 20px; /* Ganti 16px dengan ukuran font yang diinginkan */
+    /* Properti lainnya seperti warna, margin, padding, dll. bisa ditambahkan di sini */
 }
 
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: auto;
+}
+
+.navbar-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
 
 /* section {
     height: 80vh;
@@ -55,30 +189,7 @@ body {
 }
 
 
-.detail-container .card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-     z-index: 1;
-}
 
-.detail-container{
-    margin-top: 20px;
-}
-
-.detail-container .card {
-    margin: 0 10px 20px; 
-    padding: 20px;
-    border-radius: 10px;
-    color: black;
-    min-width: 260px;
-    max-width: 300px;
-    min-height: 100px;
-}
 
 .logo{
     margin-top: 8px;
@@ -124,7 +235,7 @@ body {
 
 
 .cidera-list{
-    margin-top: 20px;
+    margin-top: 2px;
 }
 
 .cideralist1{
@@ -164,9 +275,7 @@ body {
 
 .information-section {
     text-align: center;
-    padding: 3rem;
-    background-color: #81ADC8;
-
+    padding: 1rem;
 }
 
 .information-section .card-container {
@@ -183,13 +292,15 @@ body {
     width: 300px;
     text-align: center;
     margin: 10px; 
-    max-width: 700px;
-    max-height: 800px;
+    max-width: 400px;
+    max-height: 300px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .information-section .card img {
     width: 200px;
@@ -199,7 +310,7 @@ body {
 
 .Hospital_detail{
     text-align: justify;
-    text-align: 1px;
+    text-align: 1p;
 }
 
 .caution-section{

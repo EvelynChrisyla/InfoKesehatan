@@ -33,11 +33,6 @@ Route::get('/penyakitmenular', function () {
     return view('penyakitmenular');
 });
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> bffd9a50f4e1c37a88612efa335766a1f69a9554
 Route::get('/bisaular', function () {
     return view('bisaular');
 });
@@ -46,7 +41,6 @@ Route::get('/cidera', function () {
     return view('cidera');
 });
 
-<<<<<<< HEAD
 Route::get('/homepage', function () {
     return view('homepage');
 });
@@ -59,10 +53,6 @@ Route::get('/bisaularpage', [App\Http\Controllers\homepagecontroller::class, 'bi
 
 Route::get('/penyakitmenularpage', [App\Http\Controllers\homepagecontroller::class, 'penyakitmenular'])->name('penyakitmenular');
 
->>>>>>> Stashed changes
-=======
-
->>>>>>> bffd9a50f4e1c37a88612efa335766a1f69a9554
 // Route::get('/', function () {
 //     return view('cidera');
 // });

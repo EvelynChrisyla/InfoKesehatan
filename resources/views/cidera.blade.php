@@ -11,11 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="Page_Style.css">
-<<<<<<< HEAD
     <title>Cidera</title>
-=======
-    <title>Login</title>
->>>>>>> bffd9a50f4e1c37a88612efa335766a1f69a9554
 
 </head>
 
@@ -26,18 +22,10 @@
     <div class="container-fluid container-lg overflow-hidden   ">
         <div class="container-fluid container-lg overflow-hidden " style="padding-bottom: 9rem">
             <div class="row align-items-center mt-5">
-<<<<<<< HEAD
                 <div class="col-lg-7 col-12 order-lg-1 order-0"> 
                     <img style="width: 90%; min-width: 40%;" src="{{ asset('img/cidera/assetutama.png') }}" alt="">
                 </div>
                 <div class="col-lg-5  order-lg-0 order-1 mt-lg-0 mt-3 text-center text-lg-start">
-=======
-                <div class="col-lg-7 col-12 order-lg-1 order-0"> <!-- Tambahkan kelas col-lg-7 di sini -->
-                    <img style="width: 90%; min-width: 40%;" src="{{ asset('img/cidera/assetutama.png') }}" alt="">
-                </div>
-                <div class="col-lg-5  order-lg-0 order-1 mt-lg-0 mt-3 text-center text-lg-start">
-                    <!-- Tambahkan kelas col-lg-5 di sini -->
->>>>>>> bffd9a50f4e1c37a88612efa335766a1f69a9554
                     <div class="animationTeks1 " id="">
                         <section class="about-section" id="">
                             <h1>

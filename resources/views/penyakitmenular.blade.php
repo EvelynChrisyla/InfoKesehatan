@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="Page_Style.css">
-    <title>Penyakit Menular</title>
+    <title>Solusi Penolongan Pertama</title>
 
 </head>
 
@@ -30,10 +30,9 @@
                     <div class="animationTeks1 " id="">
                         <section class="about-section" id="">
                             <h1>
-                                
-                                <span class="black">Seputar</span><br>
-                                <span class="red">Penyakit Menular</span><br>
-                                <span class="black">Untuk Hidup Sehat</span>
+                                <span class="black fonts-bold">Seputar</span><br>
+                                <span class="red fonts-bold">Penyakit Menular</span><br>
+                                <span class="black fonts-bold">Untuk Hidup Sehat</span>
                             </h1>
                         </section>
 

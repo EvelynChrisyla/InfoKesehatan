@@ -9,9 +9,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "PlusJakartaSans-bold";
+            src: {{ asset('fonts/PlusJakartaSans-Bold.ttf') }}
+            
+        }
+        .fonts-bold {
+            font-family: 'PlusJakartaSans-bold';
 
+        }
+        @font-face {
+            font-family: "PlusJakartaSans-Medium";
+            src: {{ asset('fonts/PlusJakartaSans-Medium.ttf') }}
+            
+        }
+        .fonts-medium {
+            font-family: 'PlusJakartaSans-Medium';
+
+        }
+    </style>
     <link rel="stylesheet" href="Page_Style.css">
-    <title>Login</title>
+    <title>Solusi Penolongan Pertama</title>
 
 </head>
 
@@ -30,9 +49,9 @@
                     <div class="animationTeks1 " id="">
                         <section class="about-section" id="">
                             <h1>
-                                <span class="black">Seputar</span><br>
-                                <span class="red">Luka Ringan</span><br>
-                                <span class="black">dan Cara Mengobatinya</span>
+                                <span class="black fonts-bold">Seputar</span><br>
+                                <span class="red fonts-bold">Luka Ringan</span><br>
+                                <span class="black fonts-bold">dan Cara Mengobatinya</span>
                             </h1>
                         </section>
 
@@ -51,26 +70,26 @@
         <div class="container " style = "transform: translateY(-6rem); ">
             <div class="card-group gap-5 ">
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px; background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px; background-color: #E9C46A ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection.png" style="width:50px;">
-                        Luka ringan sering kali diabaikan, tetapi sebenarnya bisa menjadi sumber masalah serius jika tidak diobati dengan benar
+                            Luka ringan sering kali diabaikan, tetapi sebenarnya bisa menjadi sumber masalah serius jika tidak diobati dengan benar
                     </div>
                 </div>
 
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px;background-color: #E9C46A ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection1.png" style="width:50px;">
-                        Menurut CDC, luka ringan yang diabaikan dapat meningkatkan risiko infeksi dan komplikasi, terutama pada usia 20-30 tahun.
+                            Menurut CDC, luka ringan yang diabaikan dapat meningkatkan risiko infeksi dan komplikasi, terutama pada usia 20-30 tahun.
                     </div>
                 </div>
 
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px;background-color: #E9C46A ;border: none;">
                     <div class="card-body">
-                        <img class="logosection" src="/img/logosection2.png" style="width:50px;">
-                        Umumnya, luka ringan tidak memerlukan penanganan serius sehingga dapat di tolong dengan pertolongan pertama saja
+                        <img class="logosection" src="/img/logo3.png" style="width:50px;">
+                            Umumnya, luka ringan tidak memerlukan penanganan serius sehingga dapat di tolong dengan pertolongan pertama saja
                     </div>
                 </div>
             </div>
@@ -82,8 +101,8 @@
                     <img src="/img/Lukaringan/asset1.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Macam - Macam Luka Ringan:</b>
-                    <ul class="cideralist1">
+                    <p class="fonts-bold fs-4 fw-bolder">Macam - Macam Luka Ringan:</p>
+                    <ul class="cideralist1 m-0 ">
                         <li>Luka Lecet</li>
                         <li>Luka Sayat </li>
                         <li>Luka Robe</li>
@@ -99,8 +118,8 @@
                     <img src="/img/Lukaringan/asset2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Tahapan Pertolongan Pertama Apabila Mengalami Luka Ringan:</b>
-                    <ul class="cideralist1">
+                    <p class="fonts-bold fs-4 fw-bolder m-0">Tahapan Pertolongan Pertama Apabila Mengalami Luka Ringan:</p>
+                    <ul class="cideralist1 m-0 py-3">
                         <li>Cuci tangan  untuk mencegahi infeksi.</li>
                         <li>Bersihkan luka menggunakan air yang mengalir.</li>
                         <li>Keringkan Luka.</li>
@@ -115,11 +134,11 @@
     <div class="container rounded-top-5 " style="">
         <div class="row row-cols-1 row-cols-md-2 g-4 flex-row-reverse">
             <div class="col d-flex align-items-center justify-content-center">
-                <img src="/img/Lukaringan/asset3.png" class="cidera1 m-0 h-75 w-75">
+                <img src="/img/Lukaringan/lukaringanbawah.png" class="cidera1 m-0 h-75 w-75">
             </div>
             <div class="col d-flex flex-column  justify-content-center">
-                <b>Obat untuk Mengatasi Luka Ringan:</b>
-                <ul class="cideralist1  text-left">
+                <p class="fonts-bold fs-4 fw-bolder m-0">Obat untuk Mengatasi Luka Ringan:</p>
+                <ul class="cideralist1   text-left m-0 py-3 ">
                         <li>Povidone Iodine (Betadine)</li>
                         <li>Cedexomer Iodine (Iodosrb)</li>
                         <li>Bacitracin</li>
@@ -132,10 +151,7 @@
     </div>
 
     <section class="information-section " id="">
-        <div class="information_title">
-            <b>Alamat Klinik atau Rumah Sakit</b>
-        </div>
-
+        <p class="fw-bolder fs-2 fonts-bold">Alamat Klinik atau Rumah Sakit</p>
         <div class="card-container card-group gap-5 container-fluid   ">
             <div class="card rounded-4">
                 <b>RS Medika Permata Hijau</b>

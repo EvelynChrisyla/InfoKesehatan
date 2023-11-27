@@ -9,9 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+     <style>
+        @font-face {
+            font-family: "PlusJakartaSans-bold";
+            src: {{ asset('fonts/PlusJakartaSans-Bold.ttf') }}
+            
+        }
+        .fonts-bold {
+            font-family: 'PlusJakartaSans-bold';
+
+        }
+        @font-face {
+            font-family: "PlusJakartaSans-Medium";
+            src: {{ asset('fonts/PlusJakartaSans-Medium.ttf') }}
+            
+        }
+        .fonts-medium {
+            font-family: 'PlusJakartaSans-Medium';
+
+        }
+    </style>
 
     <link rel="stylesheet" href="Page_Style.css">
-    <title>Login</title>
+    <title>Solusi Penolongan Pertama</title>
 
 </head>
 
@@ -30,13 +50,13 @@
                     <div class="animationTeks1 " id="">
                         <section class="about-section" id="">
                             <h1>
-                                <span class="black">Seputar</span><br>
-                                <span class="red">Penyakit Menular</span><br>
-                                <span class="black">Untuk Hidup Sehat</span>
+                                <span class="black fonts-bold">Seputar</span><br>
+                                <span class="red fonts-bold">Penyakit Menular</span><br>
+                                <span class="black fonts-bold">Untuk Hidup Sehat</span>
                             </h1>
                         </section>
 
-                        <p class="text-center text-lg-start fs-5">
+                        <p class="text-center text-lg-start fs-5 ">
                             Dalam informasi ini kita dapat mengeksplorasi berbagai aspek penyakit menular, termasuk cara
                             penularannya, faktor risiko, dan upaya-upaya pencegahan yang dapat kita lakukan. Peduli
                             terhadap kesehatan kita dan komunitas kita adalah langkah awal menuju kehidupan yang lebih
@@ -54,16 +74,16 @@
         <div class="container " style = "transform: translateY(-6rem); ">
             <div class="card-group gap-5 ">
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px; background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px; background-color: #E9C46A ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection.png" style="width:50px;">
-                        Penyakit menular adalah ancaman serius bagi kesehatan global, dan merupakan penyebab  kematian di seluruh 
-                        dunia.
+                         Penyakit menular adalah ancaman serius bagi kesehatan global, dan merupakan penyebab  kematian di seluruh 
+                         dunia.
                     </div>
                 </div>
 
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px;background-color: #E9C46A ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection1.png" style="width:50px;">
                         Menurut World Health Organization (WHO), usia 20-30 tahun merupakan rentang usia yang rentan terhadap banyak penyakit menular.
@@ -71,10 +91,10 @@
                 </div>
 
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px;background-color: #E9C46A ;border: none;">
                     <div class="card-body">
-                        <img class="logosection" src="/img/logosection2.png" style="width:50px;">
-                        Mari bersama menjaga kesehatan dan mencegah penyakit menular.
+                        <img class="logosection" src="/img/logo3.png" style="width:50px;">
+                        Mari bersama menjaga kesehatan dan mencegah penyakit menular. 
                     </div>
                 </div>
             </div>
@@ -86,8 +106,8 @@
                     <img src="/img/Penyakit menular/asset1.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Macam - macam Penyakit Menular:</b>
-                    <ul class="cideralist1">
+                    <p class="fonts-bold fs-4 fw-bolder" >Macam - macam Penyakit Menular:</p>
+                    <ul class="cideralist1 m-0 ">
                         <li>Tuberkulosis</li>
                         <li>Demam dengue (DBD) </li>
                         <li>Infeksi saluran pernapasan akut (ISPA)</li>
@@ -100,11 +120,11 @@
             </div>
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col d-flex justify-content-center  align-items-center m-0">
-                    <img src="/img/Penyakit menular/asset2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
+                    <img src="/img/Penyakit menular/asset2.png" class="cidera1 m-0 h-75 w-75 py-3 " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Penyakit Menular Sendiri adalah Infeksi yang Disebabkan oleh Mikro Organisme:</b>
-                    <ul class="cideralist1">
+                    <p class="fonts-bold fs-4 fw-bolder m-0">Penyakit Menular Sendiri adalah Infeksi yang Disebabkan Oleh Mikro Organisme:</p>
+                    <ul class="cideralist1 m-0 py-3 ">
                         <li>Virus</li>
                         <li>Bakteri</li>
                         <li>Jamur</li>
@@ -118,12 +138,12 @@
 {{-- kanan menggunakan revers --}}
     <div class="container rounded-top-5 " style="">
         <div class="row row-cols-1 row-cols-md-2 g-4 flex-row-reverse">
-            <div class="col d-flex align-items-center justify-content-center">
-                <img src="/img/Penyakit menular/asset3.png" class="cidera1 m-0 h-75 w-75">
+            <div class="col d-flex align-items-center justify-content-center ">
+                <img src="/img/Penyakit menular/gamba1.png" class="cidera1 m-0 h-75 w-75">
             </div>
             <div class="col d-flex flex-column  justify-content-center">
-                <b>Cara Mengatasi Penyakit Menular:</b>
-                <ul class="cideralist1  text-left">
+                <p class="fonts-bold fs-4 fw-bolder m-0">Cara Mengatasi Penyakit Menular:</p>
+                <ul class="cideralist1  text-left m-0 py-3 ">
                         <li>Mengurangi kontak dengan orang yang sakit.</li>
                         <li>Mengurangi kontak dengan binatang pembawa penyakit.</li>
                         <li>Mengenakan masker.</li>
@@ -135,10 +155,7 @@
     </div>
 
     <section class="information-section " id="">
-        <div class="information_title">
-            <b>Alamat Klinik atau Rumah Sakit</b>
-        </div>
-
+        <p class="fw-bolder fs-2 fonts-bold">Alamat Klinik atau Rumah Sakit</p>
         <div class="card-container card-group gap-5 container-fluid   ">
             <div class="card rounded-4">
                 <b>RS Medika Permata Hijau</b>

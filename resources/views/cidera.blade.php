@@ -9,9 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "PlusJakartaSans-bold";
+            src: {{ asset('fonts/PlusJakartaSans-Bold.ttf') }}
+            
+        }
+        .fonts-bold {
+            font-family: 'PlusJakartaSans-bold';
+
+        }
+        @font-face {
+            font-family: "PlusJakartaSans-Medium";
+            src: {{ asset('fonts/PlusJakartaSans-Medium.ttf') }}
+            
+        }
+        .fonts-medium {
+            font-family: 'PlusJakartaSans-Medium';
+
+        }
+    </style>
 
     <link rel="stylesheet" href="Page_Style.css">
-    <title>Login</title>
+    <title>Solusi Penolongan Pertama</title>
 
 </head>
 
@@ -19,20 +39,20 @@
     <nav class="navbar navbar-expand-lg ">
         <img class="logo" src="/img/logoasset.png" alt="">
     </nav>
-    <div class="container-fluid container-lg overflow-hidden   ">
+    <div class="container-fluid container-lg overflow-hidden  ">
         <div class="container-fluid container-lg overflow-hidden " style="padding-bottom: 9rem">
-            <div class="row align-items-center mt-5">
-                <div class="col-lg-7 col-12 order-lg-1 order-0"> <!-- Tambahkan kelas col-lg-7 di sini -->
-                    <img style="width: 90%; min-width: 40%;" src="{{ asset('img/cidera/assetutama.png') }}" alt="">
+            <div class="row align-items-center mt-5 flex-row-reverse">
+                <div class="col d-flex justify-content-end align-items-center m-0  "> <!-- Tambahkan kelas col-lg-7 di sini -->
+                    <img style="width: 70%; min-width: 40%;" src="{{ asset('img/cidera/assetutama.png') }}" alt="">
                 </div>
                 <div class="col-lg-5  order-lg-0 order-1 mt-lg-0 mt-3 text-center text-lg-start">
                     <!-- Tambahkan kelas col-lg-5 di sini -->
                     <div class="animationTeks1 " id="">
                         <section class="about-section" id="">
                             <h1>
-                                <span class="black">Mengenal Apa itu</span><br>
-                                <span class="red">Cidera</span><br>
-                                <span class="black">dan Penanganannya</span>
+                                <span class="black fonts-bold">Mengenal Apa itu</span>
+                                <span class="red fonts-bold">Cidera</span><br>
+                                <span class="black fonts-bold">dan Penanganannya</span>
                             </h1>
                         </section>
 
@@ -52,24 +72,26 @@
         <div class="container " style = "transform: translateY(-6rem); ">
             <div class="card-group gap-5 ">
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px; background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px; background-color: #E9C46A ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection.png" style="width:50px;">
                         Cidera adalah kelainan yang terjadi pada tubuh yang mengakibatkan timbulnya nyeri akibat aktifitas gerak yang berlebihan atau kecelakaan.                    </div>
                 </div>
 
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px;background-color: #E9C46A ;border: none;">
                     <div class="card-body">
                         <img class="logosection" src="/img/logosection1.png" style="width:50px;">
-                        Pada dasarnya cidera dapat terjadi disebabkan oleh faktor-faktor dari dalam (intrinsik) maupun dari luar (ekstrinsik) yang kurang dijaga dan diperhatikan                     </div>
+                        Pada dasarnya cidera dapat terjadi disebabkan oleh faktor-faktor dari dalam (intrinsik) maupun dari luar (ekstrinsik) yang kurang dijaga dan diperhatikan                    
+                     </div>
                 </div>
 
                 <div class="card p-4 rounded-4"
-                    style="margin-top: 30px; margin-bottom: 10px;background-color: #D9D9D9 ;border: none;">
+                    style="margin-top: 30px; margin-bottom: 10px;background-color: #E9C46A ;border: none;">
                     <div class="card-body">
-                        <img class="logosection" src="/img/logosection2.png" style="width:50px;">
-                        Setelah dilakukan penanganan awal, segera ke dokter untuk dapat dievaluasi lebih lanjut tentang tingkat keparahan cidera yang dialami                    </div>
+                        <img class="logosection" src="/img/logo3.png" style="width:50px;">
+                        Setelah dilakukan penanganan awal, segera ke dokter untuk dapat dievaluasi lebih lanjut tentang tingkat keparahan cidera yang dialami                   
+                     </div>
                 </div>
             </div>
         </div>
@@ -80,8 +102,8 @@
                     <img src="/img/cidera/asset1.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Macam - macam Cidera:</b>
-                    <ul class="cideralist1">
+                    <p class="fonts-bold fs-4 fw-bolder">Macam - macam Cidera:</p>
+                    <ul class="cideralist1 m-0 ">
                         <li>Sprain (terkilir / keseleo)</li>
                         <li>Patah tulang</li>
                         <li>Dislokasi dan subluksasi</li>
@@ -90,8 +112,6 @@
                         <li>Cidera siku</li>
                         <li>Cidera pinggang</li>
                         <li>Cidera paha</li>
-
-                        
                     </ul>
                 </div>
             </div>
@@ -100,8 +120,8 @@
                     <img src="/img/cidera/asset2.png" class="cidera1 m-0 h-75 w-75  " style="float:left">
                 </div>
                 <div class="col d-flex flex-column justify-content-center">
-                    <b>Tanda – Tanda Tubuh Saat Mengalami Cidera:</b>
-                    <ul class="cideralist1">
+                    <p class="fonts-bold fs-4 fw-bolder m-0">Tanda – Tanda Tubuh Saat Mengalami Cidera:</p>
+                    <ul class="cideralist1 m-0 py-3">
                         <li>Terjadinya pembengkakan.</li>
                         <li>Terjadinya pendarahan (bisa terjadi didalam atau luar jaringan).</li>
                         <li>Peningkatan rasa nyeri pada jaringan yang mengalami trauma.</li>
@@ -116,26 +136,21 @@
     <div class="container rounded-top-5 " style="">
         <div class="row row-cols-1 row-cols-md-2 g-4 flex-row-reverse">
             <div class="col d-flex align-items-center justify-content-center">
-                <img src="/img/cidera/asset3.png" class="cidera1 m-0 h-75 w-75">
+                <img src="/img/cidera/cederabawah.png" class="cidera1 m-0 h-75 w-75">
             </div>
             <div class="col d-flex flex-column  justify-content-center">
-                <b>Cara Menangani Cidera:</b>
-                <ul class="cideralist1  text-left">
+                <p class="fonts-bold fs-4 fw-bolder m-0">Cara Menangani Cidera:</p>
+                <ul class="cideralist1 text-left m-0 py-3">
                         <li>Lindungi area cedera agar tidak meningkatkan resiko cedera berulang dengan cara membebatnya dengan elastic perban atau dekker.</li>
                         <li>Segera istirahatkan bagian tubuh yang mengalami trauma dengan tidak menggerakkanya.</li>
                         <li>Gunakan es batu atau air dingin saat infalasi untuk menghambatnya .</li>
-
                 </ul>
             </div>
         </div>
-        
     </div>
 
     <section class="information-section " id="">
-        <div class="information_title">
-            <b>Alamat Klinik atau Rumah Sakit</b>
-        </div>
-
+        <p class="fw-bolder fs-2 fonts-bold">Alamat Klinik atau Rumah Sakit</p>
         <div class="card-container card-group gap-5 container-fluid   ">
             <div class="card rounded-4">
                 <b>RS Medika Permata Hijau</b>

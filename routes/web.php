@@ -41,6 +41,11 @@ Route::get('/cidera', function () {
     return view('cidera');
 });
 
+Route::get('/homepage', function() {
+    return view('homepage');
+});
+
+
 
 // Route::get('/', function () {
 //     return view('cidera');

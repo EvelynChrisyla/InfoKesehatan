@@ -421,6 +421,7 @@ body {
     margin-top: 5px;
     text-align: left;
   }
+
   
   /* Optional: Add media query for responsive design */
   @media (max-width: 768px) {

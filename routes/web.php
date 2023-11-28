@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
 Route::get('/login', function () {
@@ -41,7 +41,7 @@ Route::get('/cidera', function () {
     return view('cidera');
 });
 
-Route::get('/homepage', function() {
+Route::get('/', function() {
     return view('homepage');
 });
 

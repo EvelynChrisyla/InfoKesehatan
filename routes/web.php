@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\jadwalController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -63,3 +64,5 @@ Route::get('/kontak', [App\Http\Controllers\homepagecontroller::class, 'kontak']
 // Route::get('/', function () {
 //     return view('cidera');
 // });
+
+Route::resource('jadwaldokter', jadwalController::class);

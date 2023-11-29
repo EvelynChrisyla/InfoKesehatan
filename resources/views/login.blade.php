@@ -48,7 +48,11 @@
             <span class="signin-text">
                 <h2><b>Welcome To </b><img class="logoasset" src="/img/logoasset.png" /></h2>
             </span>
+            
+            <div class="signin-container d-flex align-items-center justify-content-center">
             <div class="signintext">Sign In to Your Account</div>
+            </div>
+
 
             @if($errors->any())
                 <div class="alert alert-danger" role="alert">

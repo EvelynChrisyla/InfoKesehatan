@@ -8,13 +8,14 @@
     <div class="pb-3">
         <form class="d-flex" action="{{url('jadwaldokter')}}" method="get">
             <input class="form-control me-1" type="search" name="katakunci" value="{{ Request::get('katakunci') }}" placeholder="Masukkan kata kunci" aria-label="Search">
-            <button class="btn btn-secondary" type="submit">Cari</button>
+            <button class="btn btn-secondary" type="submit">Search</button>
         </form>
     </div>
     
-    <!-- TOMBOL TAMBAH DATA -->
+    <!-- TOMBOL TAMBAH DATA DAN KEMBALI KE HOMEPAGE -->
     <div class="pb-3">
-        <a href='{{ url('jadwaldokter/create') }}' class="btn btn-primary">+ Tambah Data</a>
+        <a href='{{ url('jadwaldokter/create') }}' class="btn btn-primary">+ Add Data</a>
+        <a href='{{ url('/') }}' class="btn btn-secondary">Homepage</a>
     </div>
 
     <table class="table table-striped">
@@ -42,7 +43,7 @@
                     <form onsubmit="return confirm('Are you sure you want to delete the data?')" class='d-inline' action="{{ url('jadwaldokter/'.$item->nama)}}" method="post">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" name="submit" class="btn btn-danger btn-sm">Del</button>
+                        <button type="submit" name="submit" class="btn btn-danger btn-sm">Delete</button>
                     </form>
                 </td>
             </tr>
@@ -55,4 +56,3 @@
 </div>
 <!-- AKHIR DATA -->  
 @endsection
-

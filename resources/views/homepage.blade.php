@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center mx-auto ">
                     <li class="nav-item text-center">
-                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="#">Homepage</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kontak</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
@@ -164,11 +164,9 @@
                 </div>
 
             </div>            
-          
         </section>
         
-        <h4 id="kontak"></h4>
-        <section class="caution-section d-flex ">
+        <section class="caution-section d-flex" id="contact">
             <div class="caution py-3 flex-fill ">
                 <footer class="m-0">
                     <div class="footer-layout">
@@ -183,7 +181,7 @@
                         </div>
 
                         <div class="mt-4">
-                            <p class="fonts-bold fs-4">About Us</p>
+                            <p class="fonts-bold fs-4 d-flex justify-content-center">About Us</p>
                             <p>Kami adalah sumber informasi kesehatan desa yang andal, <br>
                                 menyediakan jadwal klinik dan hasil pemantauan <br>kesehatan untuk meningkatkan
                                 kesejahteraan

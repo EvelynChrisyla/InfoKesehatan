@@ -85,9 +85,26 @@ Route::get('/jadwal', [App\Http\Controllers\JadwalController::class, 'showForPub
 
 
 // Route yang memerlukan otentikasi admin
+// Route::middleware('auth:admin')->group(function () {
+//     Route::get('/cidera', function () {
+//         return view('cidera'); })->name('admin.cidera');
+// });
+
+// Route::prefix('admin')->group(function () {
+//     Route::get('/login', function () {
+//         return view('login');
+//     })->name('admin.login');
+
+//     Route::post('/login', [AdminLoginController::class, 'login']);
+// });
+
+
+
 Route::middleware('auth:admin')->group(function () {
-    Route::get('/cidera', function () {
-        return view('cidera'); })->name('admin.cidera');
+    // Ganti route untuk menampilkan page jadwaldokter
+    Route::resource('jadwaldokter', jadwalController::class)->names([
+        'index' => 'admin.cidera',
+    ]);
 });
 
 Route::prefix('admin')->group(function () {

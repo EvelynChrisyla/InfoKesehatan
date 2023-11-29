@@ -318,16 +318,20 @@ body {
     height: 85vh;
 } */
 
-.information-section {
+/* .information-section {
     text-align: center;
     padding: 1rem;
-}
+} */
 
 .information-section .card-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* margin-top: 50px; */
     flex-wrap: wrap; 
+}
+.information-section .card{
+    height: 40rem; 
+
 }
 
 .information-section .card {

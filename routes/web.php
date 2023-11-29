@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\jadwalController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AdminLoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -67,3 +67,33 @@ Route::get('/kontak', [App\Http\Controllers\homepagecontroller::class, 'kontak']
 // });
 
 Route::resource('jadwaldokter', jadwalController::class);
+
+
+//untuk jadwal diakses ke masyrakat
+Route::get('/jadwal', [App\Http\Controllers\JadwalController::class, 'showForPublic'])->name('jadwal');
+
+
+
+ Route::post('/admin/login', [AdminLoginController::class, 'login'])->name('admin.login');
+
+// Route::middleware('auth:admin')->group(function () {
+//     Route::get('/cidera', function () {
+//         return view('cidera');
+//     })->name('admin.cidera');
+// });
+
+
+
+// Route yang memerlukan otentikasi admin
+Route::middleware('auth:admin')->group(function () {
+    Route::get('/cidera', function () {
+        return view('cidera'); })->name('admin.cidera');
+});
+
+Route::prefix('admin')->group(function () {
+    Route::get('/login', function () {
+        return view('login');
+    })->name('admin.login');
+
+    Route::post('/login', [AdminLoginController::class, 'login']);
+});

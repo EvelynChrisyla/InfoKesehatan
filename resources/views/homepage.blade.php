@@ -71,7 +71,7 @@
                                 pemantauan
                                 informasi monitoring kesehatan serta informasi perolongan pertama.
                             </p>
-                            <button class="btn btn-danger mt-3"><b>Cek Jadwal</b></button>
+                            <button class="btn btn-danger mt-3"onclick="window.location.href='{{ route('jadwal') }}'"><b>Cek Jadwal</b></button>
                         </div>
                     </div>
                 </div>

@@ -14,4 +14,9 @@ class Authenticate extends Middleware
     {
         return $request->expectsJson() ? null : route('login');
     }
+
+    protected function loginPath()
+{
+    return route('admin.login'); // Sesuaikan dengan nama route login admin Anda
+}
 }

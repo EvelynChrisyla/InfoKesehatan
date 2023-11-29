@@ -11,8 +11,10 @@ class jadwalController extends Controller
     /**
      * Display a listing of the resource.
      */
+
     public function index(Request $request)
     {
+        
         $katakunci = $request->katakunci;
         $jumlahbaris = 5;
         if(strlen($katakunci)){
@@ -113,5 +115,11 @@ class jadwalController extends Controller
     {
         jadwal::where('nama', $nama)->delete();
         return redirect()->to('jadwaldokter')->with('success', 'Berhasil menghapus data');
+    }
+
+    public function showForPublic()
+        {
+    $data = Jadwal::paginate(5); // Sesuaikan jumlah paginasi yang diinginkan
+    return view('jadwal_masyarakat')->with('data', $data);
     }
 }

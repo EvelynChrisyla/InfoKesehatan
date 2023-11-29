@@ -105,7 +105,7 @@ class jadwalController extends Controller
 
         ];
         jadwal::where('nama', $nama)->update($data);
-        return redirect()->to('jadwaldokter')->with('success', 'Berhasil melakukan update data!');
+        return redirect()->to('jadwaldokter')->with('Success!', 'Data Updated Successfully!');
     }
 
     /**
@@ -114,7 +114,7 @@ class jadwalController extends Controller
     public function destroy(string $nama)
     {
         jadwal::where('nama', $nama)->delete();
-        return redirect()->to('jadwaldokter')->with('success', 'Berhasil menghapus data');
+        return redirect()->to('jadwaldokter')->with('Success!', 'Data Deleted Successfully!');
     }
 
     public function showForPublic()

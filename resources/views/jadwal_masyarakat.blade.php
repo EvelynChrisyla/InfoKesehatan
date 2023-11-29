@@ -8,7 +8,7 @@
 
     <!-- Tambahkan tautan "Lihat Jadwal Dokter" di sini -->
     <div>
-        <a href="{{ url('/homepage') }}" class="btn btn-primary">Kembali ke Beranda</a>
+        <a href="{{ url('/homepage') }}" class="btn btn-primary">Homepage</a>
     </div>
 
     <table class="table table-striped">

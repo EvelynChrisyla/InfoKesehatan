@@ -39,4 +39,9 @@ class homepagecontroller extends Controller
     {
         return view('kontak');
     }
+
+    public function login()
+    {
+        return view('login');
+    }
 }

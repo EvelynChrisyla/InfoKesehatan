@@ -31,13 +31,33 @@
     </style>
     <link rel="stylesheet" href="Page_Style.css">
     <title>Solusi Penolongan Pertama</title>
-
+    {{-- <link rel="stylesheet" href="homepageStyle.css"> --}}
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg ">
-        <img class="logo" src="/img/logoasset.png" alt="">
+    <nav class="navbar navbar-expand-lg" >
+        <div class="container-fluid">
+            <img class="logo m-0" src="/img/logoasset.png" alt="" onclick="window.location.href='/'">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse container-fluid " id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  mx-auto ">
+                    <li class="nav-item text-center">
+                        <a class="nav-link active fw-bold" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
+      
     <div class="container-fluid container-lg overflow-hidden   ">
         <div class="container-fluid container-lg overflow-hidden " style="padding-bottom: 9rem">
             <div class="row align-items-center mt-5">
@@ -56,7 +76,7 @@
                         </section>
 
                         <p class="text-center text-lg-start fs-5">
-                        Luka ringan dapat terjadi ketika terjadi robekan pada permukaan kulit.. Walaupun luka ringan adalah penyakit yang tidak serius, terbukanya kulit dapat menyebabkan infeksi yang disebabkan oleh bakteri yang masuk kedalamnya.
+                        Luka ringan dapat terjadi ketika terjadi robekan pada permukaan kulit. Walaupun luka ringan adalah penyakit yang tidak serius, terbukanya kulit dapat menyebabkan infeksi yang disebabkan oleh bakteri yang masuk kedalamnya.
                         </p>
                     </div>
                 </div>
@@ -196,6 +216,7 @@
         <div class="caution py-3"> <p class="m-0 ">Peringatan jika Anda sedang mengalami penyakit yang mengganggu kesehatan, layanan ini tidak
             direkomendasikan untuk Anda. Silahkan menghubungi 119</p></div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <script src="path/to/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="homepageStyle.css">
     <title>Home Page</title>
@@ -18,7 +19,7 @@
 <body>
     <nav class="navbar navbar-expand-lg" style =" min-height: 10vh">
         <div class="container-fluid">
-            <img class="logo m-0" src="/img/logoasset.png" alt="">
+            <img class="logo m-0" src="/img/logoasset.png" alt="" onclick="window.location.href='/'">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,7 +38,7 @@
                 </ul>
                 <span class="navbar-text">
                     <div class="ml-auto">
-                        <button class="login-button" href="login" role="button">Log in</button>
+                        <button class="login-button" onclick="window.location.href='/login'" role="button">Log in</button>
                     </div>
                 </span>
             </div>
@@ -198,7 +199,7 @@
     <section id="background-section">
         <img id="background-image" src="img\Homepage\backgroundelipse1.png" alt="Background Image">
     </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>

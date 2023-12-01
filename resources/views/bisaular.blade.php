@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse container-fluid " id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0  mx-auto ">
                     <li class="nav-item text-center">
-                        <a class="nav-link active fw-bold" aria-current="page" href="{{ url('/') }}">Homepage</a>
+                        <a class="nav-link active fw-bold" aria-current="page" href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fw-bold" href="#">About</a>

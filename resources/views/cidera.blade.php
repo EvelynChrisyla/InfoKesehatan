@@ -168,52 +168,8 @@
         </div>
     </div>
 
-    <section class="information-section " id="">
-        <p class="fw-bolder fs-2 fonts-bold">Alamat Klinik atau Rumah Sakit</p>
-        <div class="card-container card-group gap-5 container-fluid   ">
-            <div class="card rounded-4">
-                <b>RS Medika Permata Hijau</b>
-                <img src="/img/hospital_Photo.png" alt="RS Sentosa">
-                <div class="Hospital_detail">
-                    <div><b>Alamat:</b> Jl. Raya Kby. Lama No.64, RT.1/RW.8, Sukabumi Sel., Kec. Kb. Jeruk, Kota Jakarta
-                        Barat, Daerah Khusus Ibukota Jakarta 11560</div>
-                    <div><b>Jam Buka:</b> Buka 24 jam</div>
-                    <div><b>Provinsi:</b> Jakarta</div>
-                    <div><b>Telepon:</b> 0819-0550-6159</div>
-                </div>
-            </div>
-
-            <div class="card rounded-4">
-                <b>RS Sehat Bahagia</b>
-                <img src="/img/hospital_Photo.png" alt="RS Sentosa">
-                <div class="Hospital_detail">
-                    <div><b>Alamat:</b> Jl. Raya Kby. Lama No.64, RT.1/RW.8, Sukabumi Sel., Kec. Kb. Jeruk, Kota Jakarta
-                        Barat, Daerah Khusus Ibukota Jakarta 11560</div>
-                    <div><b>Jam Buka:</b> Buka 24 jam</div>
-                    <div><b>Provinsi:</b> Jakarta</div>
-                    <div><b>Telepon:</b> 0819-0550-6159</div>
-                </div>
-
-            </div>
-
-            <div class="card rounded-4">
-                <b>RS Sentosa</b>
-                <img src="/img/hospital_Photo.png" alt="RS Sentosa">
-                <div class="Hospital_detail">
-                    <div><b>Alamat:</b> Jl. Raya Kby. Lama No.64, RT.1/RW.8, Sukabumi Sel., Kec. Kb. Jeruk, Kota Jakarta
-                        Barat, Daerah Khusus Ibukota Jakarta 11560</div>
-                    <div><b>Jam Buka:</b> Buka 24 jam</div>
-                    <div><b>Provinsi:</b> Jakarta</div>
-                    <div><b>Telepon:</b> 0819-0550-6159</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="caution-section d-flex ">
-        <div class="caution py-3"> <p class="m-0 ">Peringatan jika Anda sedang mengalami penyakit yang mengganggu kesehatan, layanan ini tidak
-            direkomendasikan untuk Anda. Silahkan menghubungi 119</p></div>
-    </section>
+    @include('alamat-rumahsakit')
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 

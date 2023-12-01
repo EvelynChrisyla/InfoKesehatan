@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="homepageStyle.css">
     <title>Home Page</title>
 
+
+
+
 </head>
 
 <body>
@@ -27,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center mx-auto ">
                     <li class="nav-item text-center">
-                        <a class="nav-link active" aria-current="page" href="#">Homepage</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -128,6 +131,7 @@
                 </div>
             </div>
         </section>
+
         <section class="first-aid-section">
             <h2 class="mt-1 mb-2 ml-3"><b>Rangkuman Hasil Monitoring</b></h2>
             <p class="ml-3">Dapatkan informasi pemantauan rutin terhadap kondisi kesehatan masyarakat desa!</p>
@@ -165,7 +169,12 @@
 
             </div>            
         </section>
+
+        <!-- style="max-width:60px;" -->
+        <!-- img/Homepage/card1.png -->
+
         
+
         <section class="caution-section d-flex" id="contact">
             <div class="caution py-3 flex-fill ">
                 <footer class="m-0">
@@ -193,11 +202,17 @@
         </section>
     </div>
 
-    <!-- <img id="background-image" src="img\Homepage\backgroundelipse1.png" alt="Background Image"> -->
-    <section id="background-section">
-        <img id="background-image" src="img\Homepage\backgroundelipse1.png" alt="Background Image">
-    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+         $(document).ready(function(){
+            $('.carousel').carousel();
+          });	
+    </script>
+
 </body>
 
 </html>

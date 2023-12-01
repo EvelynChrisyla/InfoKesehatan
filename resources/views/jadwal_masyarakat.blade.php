@@ -6,9 +6,8 @@
 <div class="my-3 p-3 bg-body rounded shadow-sm">
     <h2 class="pb-2 border-bottom">Jadwal Dokter</h2>
 
-    <!-- Tambahkan tautan "Lihat Jadwal Dokter" di sini -->
     <div>
-        <a href="{{ url('/homepage') }}" class="btn btn-primary">Homepage</a>
+        <a href="{{ url('/homepage') }}" class="btn btn-primary">Home</a>
     </div>
 
     <table class="table table-striped">

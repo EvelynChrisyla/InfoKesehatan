@@ -19,7 +19,13 @@
         <div class="mb-3 row">
             <label for="jam" class="col-sm-2 col-form-label">Jam</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name='jam' value="{{Session::get('jam')}}" id="jam">
+                <input type="time" class="form-control" name="jam" value="{{ Session::get('jam') }}" id="jam" step="60">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="tanggal" class="col-sm-2 col-form-label">Tanggal</label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control" name="tanggal" value="{{ Session::get('tanggal') }}" id="tanggal">
             </div>
         </div>
         <div class="mb-3 row">

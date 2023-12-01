@@ -42,23 +42,27 @@ class jadwalController extends Controller
     {
         Session::flash('nama',$request->nama);
         Session::flash('jam',$request->jam);
+        Session::flash('tanggal', $request->tanggal);
         Session::flash('alamat',$request->alamat);
         Session::flash('nomortelp',$request->nomortelp);
 
         $request->validate([
             'nama'=>'required',
             'jam'=>'required',
+            'tanggal' => 'required|date', 
             'alamat'=>'required',
             'nomortelp'=>'required',
         ],[
             'nama.required'=>'Nama wajib diisi!',
             'jam.required'=>'Jam wajib diisi!',
+            'tanggal.required' => 'Tanggal wajib diisi!',
             'alamat.required'=>'Alamat wajib diisi!',
             'nomortelp.required'=>'Nomor Telepon wajib diisi!',
         ]);
         $data = [
             'nama'=>$request->nama,
             'jam'=>$request->jam,
+            'tanggal' => $request->tanggal,
             'alamat'=>$request->alamat,
             'nomortelp'=>$request->nomortelp,
 
@@ -91,15 +95,18 @@ class jadwalController extends Controller
     {
         $request->validate([
             'jam'=>'required',
+            'tanggal' => 'required|date',
             'alamat'=>'required',
             'nomortelp'=>'required',
         ],[
             'jam.required'=>'Jam wajib diisi!',
+            'tanggal.required' => 'Tanggal wajib diisi!',
             'alamat.required'=>'Alamat wajib diisi!',
             'nomortelp.required'=>'Nomor Telepon wajib diisi!',
         ]);
         $data = [
             'jam'=>$request->jam,
+            'tanggal' => $request->tanggal,
             'alamat'=>$request->alamat,
             'nomortelp'=>$request->nomortelp,
 

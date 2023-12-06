@@ -439,12 +439,12 @@ body {
     }
   }
 
-  .container {
+  .contNav {
     position: relative;
     display: inline-block;
   }
   
-  .container::before {
+  .contNav::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -455,11 +455,11 @@ body {
     transition: width 0.3s; /* Animasi lebar strip */
   }
   
-  .container:hover::before {
+  .contNav:hover::before {
     width: 100%;
   }
   
-  .container:active::before {
+  .contNav:active::before {
     width: 100%;
   }
   

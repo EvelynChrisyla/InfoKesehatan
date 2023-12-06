@@ -26,13 +26,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center mx-auto ">
-                    <li class="nav-item text-center d-flex justify-content-start container">
+                    <li class="nav-item text-center d-flex justify-content-start contNav">
                         <a class="nav-link active" aria-current="page" href="#">Beranda</a>
                     </li>
-                    <li class="nav-item container">
+                    <li class="nav-item contNav">
                         <a class="nav-link" href="#">Tentang</a>
                     </li>
-                    <li class="nav-item container">
+                    <li class="nav-item contNav">
                         <a class="nav-link" href="#">Kontak</a>
                     </li>
                 </ul>

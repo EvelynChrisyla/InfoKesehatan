@@ -50,6 +50,9 @@ Route::get('/card', function() {
     return view('carousel');
 });
 
+Route::get('/about', function() {
+    return view('about');
+});
 
 Route::get('/ciderapage', [App\Http\Controllers\homepagecontroller::class, 'cidera'])->name('cidera');
 

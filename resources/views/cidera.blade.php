@@ -49,10 +49,10 @@
                         <a class="nav-link active fw-bold" aria-current="page" href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">About</a>
+                        <a class="nav-link fw-bold" href="{{ url('/about') }}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">Contact</a>
+                        <a class="nav-link fw-bold" href="{{ url('/about') }}">Contact</a>
                     </li>
                 </ul>
             </div>

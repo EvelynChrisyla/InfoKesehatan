@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
     <script src="path/to/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="stylesheet" href="homepageStyle.css">
-    <title>Home Page</title>
+    <link rel="stylesheet" href="about.css">
+    <title>About</title>
 
 
 
@@ -56,25 +56,22 @@
             <div class="  overflow-hidden ">
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-12 order-lg-1 order-0 text-center  ">
-                        <img style="width: 90%; min-width: 40%;" src="{{ asset('img\Homepage\assetutama.png') }}"
+                        <img style="width: 90%; min-width: 40%;" src="{{ asset('img\About\logoutama.png') }}"
                             alt="">
                     </div>
                     <div class="col-lg-5  order-lg-0 order-1 mt-lg-0 mt-3 text-center text-lg-start">
                         <div class="animationTeks1 " id="">
                             <section class="about-section" id="">
                                 <h1>
-                                    <span class="black">Masa Depan </span><br>
-                                    <span class="red">Kesehatan Desa</span><br>
-                                    <span class="black">yang Lebih Baik </span>
+                                    <span class="black">Membangun</span><br>
+                                    <span class="red">Jembatan Kesehatan:</span><br>
+                                    <span class="black">Dalam Pemantauan Kesehatan Masyarakat</span>
                                 </h1>
                             </section>
 
                             <p class="text-center text-lg-start fs-4">
-                                Cek jadwal terkini layanan kesehatan yang ada di desa kamu. Membantu melakukan
-                                pemantauan
-                                informasi monitoring kesehatan serta informasi perolongan pertama.
+                            Di Infokesehatan24, kami hadir untuk memberikan solusi atas tantangan yang sering dihadapi dalam mendapatkan jadwal terkini dan mendapatkan bantuan kesehatan yang cepat.
                             </p>
-                            <button class="btn btn-danger mt-3"onclick="window.location.href='{{ route('jadwal') }}'"><b>Cek Jadwal</b></button>
                         </div>
                     </div>
                 </div>
@@ -82,58 +79,8 @@
             </div>
         </div>
 
-        <h4 id="tentang"></h4>
-        <section class="first-aid-section">
-            <h2 class="mt-1 mb-2 ml-3"><b>Solusi Pertolongan Pertama</b></h2>
-            <p class="ml-3">Luka ringan, penyakit menular, cedera, dan bisa ular, semua ada di Infokesehatan24!</p>
-        </section>
-
-        <section class="card-section container ">
-            <div class="card-container row row-cols-1 row-cols-md-4 g-4 justify-content-center ">
-                <div class="col mb-3 d-flex justify-content-center">
-                    <a href="{{ route('lukaringan') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
-                            style="width: 30%;">
-                        <div class="card-body">
-                            <p class="card-text "><b>Luka Ringan</b></p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col mb-3 d-flex justify-content-center">
-                    <a href="{{ route('penyakitmenular') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card2.png" class="card-img-top mx-auto d-block" alt="Card 1"
-                            style="width: 30%;">
-                        <div class="card-body">
-                            <p class="card-text"><b>Penyakit Menular</b></p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col mb-3 d-flex justify-content-center">
-                    <a href="{{ route('cidera') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card3.png" class="card-img-top mx-auto d-block" alt="Card 1"
-                            style="width: 30%;">
-                        <div class="card-body">
-                            <p class="card-text"><b>Cidera</b></p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col mb-3 d-flex justify-content-center">
-                    <a href="{{ route('bisaular') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card4.png" class="card-img-top mx-auto d-block" alt="Card 1"
-                            style="width: 30%;">
-                        <div class="card-body">
-                            <p class="card-text"><b>Bisa Ular</b></p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="first-aid-section">
-            <h2 class="mt-1 mb-2 ml-3"><b>Rangkuman Hasil Monitoring</b></h2>
+        <section class="first-aid-section ">
+            <h2 class="about_title mb-2 ml-3 "><b>About Us</b></h2>
             <p class="ml-3">Dapatkan informasi pemantauan rutin terhadap kondisi kesehatan masyarakat desa!</p>
         </section>
         
@@ -141,35 +88,38 @@
         <section class="information-section container d-flex justify-content-center " id="">
             <div class="card-container card-group gap-5 container-fluid d-flex justify-content-between align-items-stretch">
                 <div class="card rounded-4 d-flex flex-column">
-                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
-                    <b>Posyandu</b>
+                    <!-- <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;"> -->
+                    
                     <div class="Hospital_detail">
+                    <b class="section-title">Apa Yang Kami Berikan?</b>
                         <br>
                         <p>
-                            Data terbaru per 1 October 2023!:
-                           <li>Terdapat 17 bayi perempuan</li>
-                            <li>Bayi stunting : 7</li>
-                            <li>Bayi normal : 30</li>
-                        </p>
+                            <ul>
+                            <li><b>Informasi Pertolongan Pertama:</b> Panduan lengkap tentang pertolongan pertama dalam situasi darurat untuk memberikan pengetahuan yang kritis di saat genting.</li>
+                            <li><b>Jadwal Dokter di Puskesmas:</b>  Akses langsung untuk mengecek daftar dokter yang tersedia di berbagai puskesmas, memudahkan Anda untuk membuat janji atau mendapatkan bantuan medis.</li>
+                            <li><b>Pemantauan Kesehatan:</b> Kemudahan dalam memantau kondisi kesehatan Anda sendiri dengan alat pemantauan yang tersedia, memberikan kontrol lebih atas kesehatan pribadi.</li>
+                            </ul>
+                            </p>
                     </div>
                 </div>
                 <div class="card rounded-4 d-flex flex-column">
-                    <img src="/img/Homepage/asset6.png" alt="RS Sentosa" style="width:30%;">
-                    <b>Klinik</b>
+                    <!-- <img src="/img/Homepage/asset6.png" alt="RS Sentosa" style="width:30%;"> -->
                     <div class="Hospital_detail">
+                    <!-- <b class="section-title">Apa Yang Kami Berikan?</b> -->
                         <br>
                         <p>
-                            Data terbaru per 1 October 2023!:
-                            <li>Terdapat 2 orang penderita diabetes</li>
-                            <li>Terdapat 1 orang terkena demam berdarah</li>
-                            <li>Terdapat 2 orang menderita covid-19</li>
-                        </p>
+                            <ul>
+                                <li>Dengan kolaborasi antara teknologi dan pelayanan kesehatan, kami berkomitmen untuk menyediakan informasi yang relevan dan layanan yang memudahkan akses Anda untuk menjaga kesehatan dengan lebih baik. Dengan Infokesehatan24, kesehatan yang lebih baik menjadi lebih terjangkau dan teratur bagi semua.</li>
+                            </ul>
+                             </p>
                     </div>
                 </div>
 
-            </div>            
+            </div>
+            
+            
         </section>
-
+        
         <!-- style="max-width:60px;" -->
         <!-- img/Homepage/card1.png -->
 
@@ -204,14 +154,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
-    <script>
-         $(document).ready(function(){
-            $('.carousel').carousel();
-          });	
-    </script>
 
 </body>
 

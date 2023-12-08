@@ -137,6 +137,10 @@ Route::get('/admin/maps', function () {
     return view('adminmaps');
 });
 
+
+Route::get('/puskesmas', function () {
+    return view('puskesmas');
+});
 // Route::get('/adminhomepage', function () {
 //     return view('adminhomepage');
 // });
@@ -187,3 +191,26 @@ Route::get('/informasiklinik', function () {
 Route::get('/adminhomepage', function () {
     return view('adminhomepage');
 })->name('adminhomepage');
+
+// Route::get('/store/posyandu', function () {
+
+// })->name('store.posyandu');
+use App\Http\Controllers\PosyanduController;
+use App\Models\Posyandu;
+
+Route::get('/posyandu/create', [PosyanduController::class, 'create'])->name('create.posyandu');
+Route::post('/posyandu/store', [PosyanduController::class, 'store'])->name('store.posyandu');
+
+
+// Route::get('/puskesmasadmin', function () {
+//     return view('puskesmasadmin');
+// });
+
+// Route::get('/posyanduadmin', [PosyanduController::class, 'index'])->name('posyanduadmin');
+
+Route::get('/puskesmasadmin', [PosyanduController::class, 'index'])->name('puskesmasadmin');
+Route::get('/posyandu/edit/{id}', [PosyanduController::class, 'edit'])->name('edit.posyandu');
+Route::put('/posyandu/update/{id}', [PosyanduController::class, 'update'])->name('update.posyandu');
+Route::delete('/posyandu/delete/{id}', [PosyanduController::class, 'destroy'])->name('delete.posyandu');
+
+

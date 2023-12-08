@@ -11,7 +11,7 @@
 
     <div class="pb-3">
         <a href='{{ url('createclinic') }}' class="btn btn-primary">+ Add Data</a>
-        <a href='{{ url('/') }}' class="btn btn-secondary">Home</a>
+        <a href='{{ url('/adminhomepage') }}' class="btn btn-secondary">Home</a>
     </div>
 
     <h1>Daftar Klinik</h1>

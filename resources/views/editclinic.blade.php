@@ -37,13 +37,14 @@
         <div class="mb-3 row">
             <label for="jam_buka" class="col-sm-2 col-form-label">Jam Buka</label>
             <div class="col-sm-10">
-                <input type="time" class="form-control" name='jam_buka' id="jam_buka" required>
+                <input type="time" class="form-control" name='jam_buka' id="jam_buka" value="{{ $clinic->jam_buka }}">
+
             </div>
         </div>
         <div class="mb-3 row">
             <label for="link_alamat" class="col-sm-2 col-form-label">Link Alamat</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name='link_alamat' id="link_alamat" required>
+                <input type="text" class="form-control" name='link_alamat' id="link_alamat" value="{{ $clinic->link_alamat }}">
             </div>
         </div>
         <div class="mb-3 row">

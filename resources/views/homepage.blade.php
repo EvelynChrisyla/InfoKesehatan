@@ -159,19 +159,26 @@
 
         <section class="information-section container d-flex justify-content-center " id="">
             <div class="card-container card-group gap-5 container-fluid">
-                <div class="card rounded-4">
-                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
-                    <b>Posyandu</b>
-                    <div class="Hospital_detail">
-                        <br>
-                        <p>
-                            Data terbaru per 1 October 2023!:
-                           <li>Terdapat 17 bayi perempuan</li>
-                            <li>Bayi stunting : 7</li>
-                            <li>Bayi normal : 30</li>
-                        </p>
-                    </div>
+            <!-- Card section for Posyandu -->
+            <div class="card rounded-4">
+                <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
+                <b>Posyandu</b>
+                <div class="Hospital_detail">
+                    <br>
+                    <p>
+                        Data terbaru per 1 October 2023!:
+                        @if(isset($posyanduData))
+                            <li>Bayi Laki-laki: {{ $posyanduData->laki_laki }}</li>
+                            <li>Bayi Perempuan: {{ $posyanduData->perempuan }}</li>
+                            <li>Bayi Stunting: {{ $posyanduData->stunting }}</li>
+                            <li>Bayi Normal: {{ $posyanduData->normal }}</li>
+                        @else
+                            <li>Data not available</li>
+                        @endif
+                    </p>
                 </div>
+            </div>
+
                 <div class="card rounded-4">
                     <img src="/img/Homepage/asset6.png" alt="RS Sentosa" style="width:30%;">
                     <b>Klinik</b>
@@ -226,3 +233,8 @@
 </body>
 
 </html>
+
+                           <!-- <li>Terdapat 20 bayi laki-laki</li>
+                           <li>Terdapat 17 bayi perempuan</li>
+                            <li>Bayi stunting : 7</li>
+                            <li>Bayi normal : 30</li> -->

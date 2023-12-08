@@ -18,7 +18,7 @@
     <!-- TOMBOL TAMBAH DATA DAN KEMBALI KE HOMEPAGE -->
     <div class="pb-3">
         <a href='{{ url('jadwaldokter/create') }}' class="btn btn-primary">+ Add Data</a>
-        <a href='{{ url('/') }}' class="btn btn-secondary">Home</a>
+        <a href='{{ url('/adminhomepage') }}' class="btn btn-secondary">Home</a>
     </div>
 
     <table class="table table-striped">

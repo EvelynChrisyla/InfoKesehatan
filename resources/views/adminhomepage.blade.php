@@ -14,36 +14,39 @@
     <link rel="stylesheet" href="homepageStyle.css">
     <title>Home Page</title>
 
+
+
+
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg" style =" min-height: 10vh">
-                <div class="container-fluid">
-                    <img class="logo m-0" src="/img/logoasset.png" alt="" onclick="window.location.href='/'">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center mx-auto ">
-                            <li class="nav-item text-center d-flex justify-content-start contNav">
-                                <a class="nav-link active" aria-current="page" href="{{ url('/') }} ">Home</a>
-                            </li>
-                            <li class="nav-item contNav">
-                                <a class="nav-link" href="{{ url('/about') }}">About</a>
-                            </li>
-                            <li class="nav-item contNav">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                        <span class="navbar-text">
-                            <div class="ml-auto">
-                                <button class="login-button" onclick="window.location.href='/login'" role="button">Log in</button>
-                            </div>
-                        </span>
+    <nav class="navbar navbar-expand-lg" style =" min-height: 10vh">
+        <div class="container-fluid">
+            <img class="logo m-0" src="/img/logoasset.png" alt="" onclick="window.location.href='/'">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center mx-auto ">
+                    <li class="nav-item text-center">
+                        <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <div class="ml-auto">
+                        <button class="login-button" onclick="window.location.href='/login'" role="button">Log in</button>
                     </div>
-                </div>
-        </nav>
+                </span>
+            </div>
+        </div>
+    </nav>
 
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
         tabindex="0">
@@ -60,18 +63,17 @@
                         <div class="animationTeks1 " id="">
                             <section class="about-section" id="">
                                 <h1>
-                                    <span class="black">Masa Depan </span><br>
-                                    <span class="red">Kesehatan Desa</span><br>
-                                    <span class="black">yang Lebih Baik </span>
+                                
+                                    <span class="black">Satukan Langkah </span><br>
+                                    <span class="red">Wujudkan Kesehatan</span><br>
+                                    <span class="black">Yang Lebih Baik </span>
                                 </h1>
                             </section>
 
                             <p class="text-center text-lg-start fs-4">
-                                Cek jadwal terkini layanan kesehatan yang ada di desa kamu. Membantu melakukan
-                                pemantauan
-                                informasi monitoring kesehatan serta informasi perolongan pertama.
+                            Kami memimpin langkah untuk kesehatan yang lebih baik. Bersama-sama, kami memantau layanan kesehatan, memberikan informasi terpercaya, dan memberikan bantuan pertama. Satukan langkah dengan kami menuju kesehatan yang lebih baik di desa kita.
                             </p>
-                            <button class="btn btn-danger mt-3"><b>Cek Jadwal</b></button>
+                            <!-- <button class="btn btn-danger mt-3"onclick="window.location.href='{{ route('jadwal') }}'"><b>Cek Jadwal</b></button> -->
                         </div>
                     </div>
                 </div>
@@ -129,37 +131,48 @@
             </div>
         </section>
 
-        <h4 id="maps"></h4>
+
+
+        <h4 id="settings"></h4>
         <section class="first-aid-section">
-            <h2 class="mt-1 mb-2 ml-3"><b>Cek Informasi Klinik</b></h2>
-            <p class="ml-3">Cari alamat dan informasi klinik di daerah terdekat Anda!</p>
+            <h2 class="mt-1 mb-2 ml-3"><b>Pengaturan Data</b></h2>
+            <p class="ml-3">Lakukan update jadwal secara berkala untuk memberikan jadwal terkini</p>
         </section>
 
         <section class="card-section container ">
             <div class="card-container row row-cols-1 row-cols-md-4 g-4 justify-content-center ">
+                
                 <div class="col mb-3 d-flex justify-content-center">
-                    <a href="{{ route('informasiklinik') }}" class="card text-center text-decoration-none w-75 h-100">
+                    <a href="{{ route('admin.maps') }}" class="card text-center text-decoration-none w-75 h-100">
                         <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
                             style="width: 30%;">
                         <div class="card-body">
-                            <p class="card-text "><b>Informasi Klinik</b></p>
+                            <p class="card-text "><b>Alamat Rumah Sakit</b></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col mb-3 d-flex justify-content-center">
+                <a href="{{ route('admin.jadwal.index') }}" class="card text-center text-decoration-none w-75 h-100">
+                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                            style="width: 30%;">
+                        <div class="card-body">
+                            <p class="card-text "><b>Jadwal Klinik</b></p>
                         </div>
                     </a>
                 </div>
 
             </div>
         </section>
-
-
-        <section class="first-aid-section">
+        <!-- <section class="first-aid-section">
             <h2 class="mt-1 mb-2 ml-3"><b>Rangkuman Hasil Monitoring</b></h2>
             <p class="ml-3">Dapatkan informasi pemantauan rutin terhadap kondisi kesehatan masyarakat desa!</p>
         </section>
         
 
         <section class="information-section container d-flex justify-content-center " id="">
-            <div class="card-container card-group gap-5 container-fluid">
-                <div class="card rounded-4">
+            <div class="card-container card-group gap-5 container-fluid d-flex justify-content-between align-items-stretch">
+                <div class="card rounded-4 d-flex flex-column">
                     <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
                     <b>Posyandu</b>
                     <div class="Hospital_detail">
@@ -172,7 +185,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card rounded-4">
+                <div class="card rounded-4 d-flex flex-column">
                     <img src="/img/Homepage/asset6.png" alt="RS Sentosa" style="width:30%;">
                     <b>Klinik</b>
                     <div class="Hospital_detail">
@@ -187,11 +200,14 @@
                 </div>
 
             </div>            
-          
-        </section>
+        </section> -->
+
+        <!-- style="max-width:60px;" -->
+        <!-- img/Homepage/card1.png -->
+
         
-        <h4 id="kontak"></h4>
-        <section class="caution-section d-flex ">
+
+        <section class="caution-section d-flex" id="contact">
             <div class="caution py-3 flex-fill ">
                 <footer class="m-0">
                     <div class="footer-layout">
@@ -206,7 +222,7 @@
                         </div>
 
                         <div class="mt-4">
-                            <p class="fonts-bold fs-4">About Us</p>
+                            <p class="fonts-bold fs-4 d-flex justify-content-center">About Us</p>
                             <p>Kami adalah sumber informasi kesehatan desa yang andal, <br>
                                 menyediakan jadwal klinik dan hasil pemantauan <br>kesehatan untuk meningkatkan
                                 kesejahteraan
@@ -218,11 +234,17 @@
         </section>
     </div>
 
-    <!-- <img id="background-image" src="img\Homepage\backgroundelipse1.png" alt="Background Image"> -->
-    <section id="background-section">
-        <img id="background-image" src="img\Homepage\backgroundelipse1.png" alt="Background Image">
-    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+         $(document).ready(function(){
+            $('.carousel').carousel();
+          });	
+    </script>
+
 </body>
 
 </html>

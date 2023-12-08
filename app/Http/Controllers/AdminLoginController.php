@@ -32,7 +32,7 @@ class AdminLoginController extends Controller
         $credentials = $request->only('email', 'password');
     
         if (Auth::guard('admin')->attempt($credentials)) {
-            return redirect()->intended(route('admin.cidera'));
+            return redirect()->intended(route('adminhomepage'));
         }
     
         return redirect()->route('admin.login')->withErrors(['error' => 'Invalid credentials']);

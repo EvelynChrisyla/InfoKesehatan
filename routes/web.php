@@ -54,6 +54,11 @@ Route::get('/about', function() {
     return view('about');
 });
 
+
+Route::get('/maps', function() {
+    return view('maps');
+});
+
 Route::get('/ciderapage', [App\Http\Controllers\homepagecontroller::class, 'cidera'])->name('cidera');
 
 
@@ -107,10 +112,15 @@ Route::get('/jadwal', [App\Http\Controllers\JadwalController::class, 'showForPub
 
 
 
+// Route::middleware('auth:admin')->group(function () {
+//     Route::resource('jadwaldokter', jadwalController::class)->names([
+//         'index' => 'admin.cidera',
+//     ]);
+// });
+
 Route::middleware('auth:admin')->group(function () {
-    // Ganti route untuk menampilkan page jadwaldokter
     Route::resource('jadwaldokter', jadwalController::class)->names([
-        'index' => 'admin.cidera',
+        'index' => 'admin.jadwal.index', // Adjust the naming as needed
     ]);
 });
 
@@ -121,3 +131,59 @@ Route::prefix('admin')->group(function () {
 
     Route::post('/login', [AdminLoginController::class, 'login']);
 });
+
+
+Route::get('/admin/maps', function () {
+    return view('adminmaps');
+});
+
+// Route::get('/adminhomepage', function () {
+//     return view('adminhomepage');
+// });
+
+// Route::post('/admin/maps/store', 'ClinicController@store')->name('store.clinic');
+
+use App\Http\Controllers\ClinicController;
+use App\Models\Clinic;
+
+Route::get('/admin/maps', function () {
+    $clinics = Clinic::all();
+    return view('adminmaps', compact('clinics'));
+})->name('admin.maps');
+
+// Menampilkan daftar klinik yang sudah ada
+Route::get('/show-clinics', [ClinicController::class, 'show'])->name('show.clinics');
+
+// Menyimpan klinik baru
+Route::post('/admin/maps/store', [ClinicController::class, 'store'])->name('store.clinic');
+
+
+Route::get('/admin/maps/edit/{id}', [ClinicController::class, 'edit'])->name('edit.clinic');
+
+// Rute untuk melakukan update pada klinik yang diedit
+Route::put('/admin/maps/update/{id}', [ClinicController::class, 'update'])->name('update.clinic');
+
+// Rute untuk menghapus klinik
+Route::delete('/admin/maps/delete/{id}', [ClinicController::class, 'destroy'])->name('delete.clinic');
+
+Route::get('/createclinic', function () {
+    return view('createclinic'); // Ganti 'createclinic' dengan nama blade yang Anda buat untuk form tambah klinik
+});
+
+Route::get('/admin/maps', [ClinicController::class, 'index'])->name('admin.maps');
+
+
+// Route::get('/clinic/cards', function () {
+//     $clinics = Clinic::all();
+//     return view('cardclinic', compact('clinics'));
+// });
+
+Route::get('/informasiklinik', function () {
+    $clinics = App\Models\Clinic::all(); // Ambil semua data klinik dari model
+    return view('cardclinic', compact('clinics'));
+})->name('informasiklinik');
+
+
+Route::get('/adminhomepage', function () {
+    return view('adminhomepage');
+})->name('adminhomepage');

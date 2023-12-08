@@ -214,3 +214,4 @@ Route::put('/posyandu/update/{id}', [PosyanduController::class, 'update'])->name
 Route::delete('/posyandu/delete/{id}', [PosyanduController::class, 'destroy'])->name('delete.posyandu');
 
 
+Route::get('/', [PosyanduController::class, 'getData'])->name('homepage');

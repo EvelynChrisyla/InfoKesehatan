@@ -20,33 +20,33 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style =" min-height: 10vh">
-        <div class="container-fluid">
-            <img class="logo m-0" src="/img/logoasset.png" alt="" onclick="window.location.href='/'">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center mx-auto ">
-                    <li class="nav-item text-center">
-                        <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/about') }}">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    <div class="ml-auto">
-                        <button class="login-button" onclick="window.location.href='/login'" role="button">Log in</button>
+<nav class="navbar navbar-expand-lg" style =" min-height: 10vh">
+                <div class="container-fluid">
+                    <img class="logo m-0" src="/img/logoasset.png" alt="" onclick="window.location.href='/'">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center mx-auto ">
+                            <li class="nav-item text-center d-flex justify-content-start contNav">
+                                <a class="nav-link active" aria-current="page" href="{{ url('/') }} ">Home</a>
+                            </li>
+                            <li class="nav-item contNav">
+                                <a class="nav-link" href="{{ url('/about') }}">About</a>
+                            </li>
+                            <li class="nav-item contNav">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text">
+                            <div class="ml-auto">
+                                <button class="login-button" onclick="window.location.href='/login'" role="button">Log in</button>
+                            </div>
+                        </span>
                     </div>
-                </span>
-            </div>
-        </div>
-    </nav>
+                </div>
+        </nav>
 
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
         tabindex="0">

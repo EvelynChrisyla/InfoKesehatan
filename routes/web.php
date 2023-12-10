@@ -200,18 +200,49 @@ use App\Models\Posyandu;
 
 Route::get('/posyandu/create', [PosyanduController::class, 'create'])->name('create.posyandu');
 Route::post('/posyandu/store', [PosyanduController::class, 'store'])->name('store.posyandu');
-
-
-// Route::get('/puskesmasadmin', function () {
-//     return view('puskesmasadmin');
-// });
-
-// Route::get('/posyanduadmin', [PosyanduController::class, 'index'])->name('posyanduadmin');
-
 Route::get('/puskesmasadmin', [PosyanduController::class, 'index'])->name('puskesmasadmin');
 Route::get('/posyandu/edit/{id}', [PosyanduController::class, 'edit'])->name('edit.posyandu');
 Route::put('/posyandu/update/{id}', [PosyanduController::class, 'update'])->name('update.posyandu');
 Route::delete('/posyandu/delete/{id}', [PosyanduController::class, 'destroy'])->name('delete.posyandu');
+// Route::get('/', [PosyanduController::class, 'getData'])->name('homepage');
+
+use App\Http\Controllers\KlinikController;
+use App\Models\Klinik;
 
 
-Route::get('/', [PosyanduController::class, 'getData'])->name('homepage');
+Route::get('/klinik/create', [KlinikController::class, 'create'])->name('create.klinik');
+Route::post('/klinik/store', [KlinikController::class, 'store'])->name('store.klinik');
+Route::get('/klinikadmin', [KlinikController::class, 'index'])->name('klinikadmin');
+Route::get('/klinik/edit/{id}', [KlinikController::class, 'edit'])->name('edit.klinik');
+Route::put('/klinik/update/{id}', [KlinikController::class, 'update'])->name('update.klinik');
+Route::delete('/klinik/delete/{id}', [KlinikController::class, 'destroy'])->name('delete.klinik');
+// Route::get('/', [KlinikController::class, 'getData'])->name('homepage');
+// Route::get('/klinik-homepage', [KlinikController::class, 'getData'])->name('klinik_homepage');
+// Route::get('/posyandu-homepage', [PosyanduController::class, 'getData'])->name('posyandu_homepage');
+
+//LANSIA 
+use App\Http\Controllers\LansiaController;
+use App\Models\Lansia;
+
+Route::get('/lansia/create', [LansiaController::class, 'create'])->name('create.lansia');
+Route::post('/lansia/store', [LansiaController::class, 'store'])->name('store.lansia');
+Route::get('/lansiaadmin', [LansiaController::class, 'index'])->name('lansiaadmin');
+Route::get('/lansia/edit/{id}', [LansiaController::class, 'edit'])->name('edit.lansia');
+Route::put('/lansia/update/{id}', [LansiaController::class, 'update'])->name('update.lansia');
+Route::delete('/lansia/delete/{id}', [LansiaController::class, 'destroy'])->name('delete.lansia');
+
+//IBU HAMIL 
+use App\Http\Controllers\HamilController;
+use App\Models\Hamil;
+
+Route::get('/hamil/create', [HamilController::class, 'create'])->name('create.hamil');
+Route::post('/hamil/store', [HamilController::class, 'store'])->name('store.hamil');
+Route::get('/hamiladmin', [HamilController::class, 'index'])->name('hamiladmin');
+Route::get('/hamil/edit/{id}', [HamilController::class, 'edit'])->name('edit.hamil');
+Route::put('/hamil/update/{id}', [HamilController::class, 'update'])->name('update.hamil');
+Route::delete('/hamil/delete/{id}', [HamilController::class, 'destroy'])->name('delete.hamil');
+
+
+use App\Http\Controllers\HomeController;
+
+Route::get('/', [HomeController::class, 'index'])->name('homepage');

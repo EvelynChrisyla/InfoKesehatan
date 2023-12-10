@@ -132,17 +132,71 @@
         </section>
 
 
-
         <h4 id="settings"></h4>
         <section class="first-aid-section">
-            <h2 class="mt-1 mb-2 ml-3"><b>Pengaturan Data</b></h2>
+            <h2 class="mt-1 mb-2 ml-3"><b>Pengaturan Data Monitoring</b></h2>
             <p class="ml-3">Lakukan update jadwal secara berkala untuk memberikan jadwal terkini</p>
         </section>
 
         <section class="card-section container ">
             <div class="card-container row row-cols-1 row-cols-md-4 g-4 justify-content-center ">
                 
+
                 <div class="col mb-3 d-flex justify-content-center">
+                <a href="{{ route('puskesmasadmin') }}" class="card text-center text-decoration-none w-75 h-100">
+                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                            style="width: 30%;">
+                        <div class="card-body">
+                            <p class="card-text "><b>Monitoring Posyandu</b></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col mb-3 d-flex justify-content-center">
+                <a href="{{ route('klinikadmin') }}" class="card text-center text-decoration-none w-75 h-100">
+                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                            style="width: 30%;">
+                        <div class="card-body">
+                            <p class="card-text "><b>Monitoring Klinik</b></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col mb-3 d-flex justify-content-center">
+                <a href="{{ route('lansiaadmin') }}" class="card text-center text-decoration-none w-75 h-100">
+                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                            style="width: 30%;">
+                        <div class="card-body">
+                            <p class="card-text "><b>Monitoring Lansia</b></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col mb-3 d-flex justify-content-center">
+                <a href="{{ route('hamiladmin') }}" class="card text-center text-decoration-none w-75 h-100">
+                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                            style="width: 30%;">
+                        <div class="card-body">
+                            <p class="card-text "><b>Monitoring Ibu Hamil</b></p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <h4 id="settings"></h4>
+        <section class="first-aid-section">
+            <h2 class="mt-1 mb-2 ml-3"><b>Pengaturan Data Jadwal & Informasi Klinik</b></h2>
+            <p class="ml-3">Lakukan update jadwal secara berkala untuk memberikan jadwal terkini</p>
+        </section>
+
+        <section class="card-section container ">
+            <div class="card-container row row-cols-1 row-cols-md-4 g-4 justify-content-center ">
+                
+            <div class="col mb-3 d-flex justify-content-center">
                     <a href="{{ route('admin.maps') }}" class="card text-center text-decoration-none w-75 h-100">
                         <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
                             style="width: 30%;">
@@ -161,51 +215,8 @@
                         </div>
                     </a>
                 </div>
-
             </div>
         </section>
-        <!-- <section class="first-aid-section">
-            <h2 class="mt-1 mb-2 ml-3"><b>Rangkuman Hasil Monitoring</b></h2>
-            <p class="ml-3">Dapatkan informasi pemantauan rutin terhadap kondisi kesehatan masyarakat desa!</p>
-        </section>
-        
-
-        <section class="information-section container d-flex justify-content-center " id="">
-            <div class="card-container card-group gap-5 container-fluid d-flex justify-content-between align-items-stretch">
-                <div class="card rounded-4 d-flex flex-column">
-                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
-                    <b>Posyandu</b>
-                    <div class="Hospital_detail">
-                        <br>
-                        <p>
-                            Data terbaru per 1 October 2023!:
-                           <li>Terdapat 17 bayi perempuan</li>
-                            <li>Bayi stunting : 7</li>
-                            <li>Bayi normal : 30</li>
-                        </p>
-                    </div>
-                </div>
-                <div class="card rounded-4 d-flex flex-column">
-                    <img src="/img/Homepage/asset6.png" alt="RS Sentosa" style="width:30%;">
-                    <b>Klinik</b>
-                    <div class="Hospital_detail">
-                        <br>
-                        <p>
-                            Data terbaru per 1 October 2023!:
-                            <li>Terdapat 2 orang penderita diabetes</li>
-                            <li>Terdapat 1 orang terkena demam berdarah</li>
-                            <li>Terdapat 2 orang menderita covid-19</li>
-                        </p>
-                    </div>
-                </div>
-
-            </div>            
-        </section> -->
-
-        <!-- style="max-width:60px;" -->
-        <!-- img/Homepage/card1.png -->
-
-        
 
         <section class="caution-section d-flex" id="contact">
             <div class="caution py-3 flex-fill ">

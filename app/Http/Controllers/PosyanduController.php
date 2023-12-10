@@ -65,11 +65,11 @@ class PosyanduController extends Controller
         return redirect('/puskesmasadmin')->with('success', 'Data Posyandu berhasil dihapus!');
     }
 
-    public function getData()
-    {
-        $posyanduData = Posyandu::latest()->first(); // Fetch the latest Posyandu data
-        return view('homepage', ['posyanduData' => $posyanduData]); // Pass data to the homepage view
-    }
+    // public function getData()
+    // {
+    //     $posyanduData = Posyandu::latest()->first(); // Fetch the latest Posyandu data
+    //     return view('homepage', ['posyanduData' => $posyanduData]); // Pass data to the homepage view
+    // }
 
 
 }

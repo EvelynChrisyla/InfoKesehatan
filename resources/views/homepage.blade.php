@@ -159,39 +159,84 @@
 
         <section class="information-section container d-flex justify-content-center " id="">
             <div class="card-container card-group gap-5 container-fluid">
-            <!-- Card section for Posyandu -->
-            <div class="card rounded-4">
-                <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
-                <b>Posyandu</b>
-                <div class="Hospital_detail">
-                    <br>
-                    <p>
-                        Data terbaru per 1 October 2023!:
-                        @if(isset($posyanduData))
-                            <li>Bayi Laki-laki: {{ $posyanduData->laki_laki }}</li>
-                            <li>Bayi Perempuan: {{ $posyanduData->perempuan }}</li>
-                            <li>Bayi Stunting: {{ $posyanduData->stunting }}</li>
-                            <li>Bayi Normal: {{ $posyanduData->normal }}</li>
-                        @else
-                            <li>Data not available</li>
-                        @endif
-                    </p>
+                <!-- Card section for Posyandu -->
+                <div class="card rounded-4">
+                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
+                    <b>Posyandu</b>
+                    <div class="Hospital_detail">
+                        <br>
+                        <p>
+                            Data terbaru per 1 October 2023!:
+                            @if(isset($posyanduData))
+                                <li>Bayi Laki-laki: {{ $posyanduData->laki_laki }}</li>
+                                <li>Bayi Perempuan: {{ $posyanduData->perempuan }}</li>
+                                <li>Bayi Stunting: {{ $posyanduData->stunting }}</li>
+                                <li>Bayi Normal: {{ $posyanduData->normal }}</li>
+                            @else
+                                <li>Data not available</li>
+                            @endif
+                        </p>
+                    </div>
                 </div>
-            </div>
 
                 <div class="card rounded-4">
-                    <img src="/img/Homepage/asset6.png" alt="RS Sentosa" style="width:30%;">
+                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
                     <b>Klinik</b>
                     <div class="Hospital_detail">
                         <br>
                         <p>
                             Data terbaru per 1 October 2023!:
-                            <li>Terdapat 2 orang penderita diabetes</li>
-                            <li>Terdapat 1 orang terkena demam berdarah</li>
-                            <li>Terdapat 2 orang menderita covid-19</li>
+                            @if(isset($klinikData))
+                                <li>Jumlah Penderita Diabetes: {{ $klinikData->diabetes }}</li>
+                                <li>Jumlah Penderita DBD: {{ $klinikData->dbd }}</li>
+                                <li>Jumlah Penderita Covid-19: {{ $klinikData->covid }}</li>
+                                <li>Jumlah Penderita TBC: {{ $klinikData->tbc }}</li>
+                            @else
+                                <li>Data not available</li>
+                            @endif
                         </p>
                     </div>
                 </div>
+
+                <div class="w-100"></div>
+
+                <div class="card rounded-4">
+                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
+                    <b>Lansia</b>
+                    <div class="Hospital_detail">
+                        <br>
+                        <p>
+                            Data terbaru per 1 October 2023!:
+                            @if(isset($lansiaData))
+                                <li>Jumlah Penderita Diabetes: {{ $lansiaData->pria }}</li>
+                                <li>Jumlah Penderita DBD: {{ $lansiaData->wanita }}</li>
+                                <li>Jumlah Penderita Covid-19: {{ $lansiaData->total }}</li>
+                            @else
+                                <li>Data not available</li>
+                            @endif
+                        </p>
+                    </div>
+                </div>
+                <div class="card rounded-4">
+                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
+                    <b>Ibu Hamil</b>
+                    <div class="Hospital_detail">
+                        <br>
+                        <p>
+                            Data terbaru per 1 October 2023!:
+                            @if(isset($hamilData))
+                                <li>Jumlah Penderita Diabetes: {{ $hamilData->totalhamil }}</li>
+                                <li>Jumlah Penderita DBD: {{ $hamilData->keguguran }}</li>
+                                <li>Jumlah Penderita Covid-19: {{ $hamilData->melahirkan }}</li>
+                            @else
+                                <li>Data not available</li>
+                            @endif
+                        </p>
+                    </div>
+                </div>
+            
+                
+
 
             </div>            
           

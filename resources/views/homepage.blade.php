@@ -71,7 +71,8 @@
                                 pemantauan
                                 informasi monitoring kesehatan serta informasi perolongan pertama.
                             </p>
-                            <button class="btn btn-danger mt-3"><b>Cek Jadwal</b></button>
+                            <button class="btn btn-danger mt-3" onclick="window.location.href='{{ url('/jadwal') }}'"><b>Cek Jadwal</b></button>
+
                         </div>
                     </div>
                 </div>
@@ -258,7 +259,7 @@
                         </div>
 
                         <div class="mt-4">
-                            <p class="fonts-bold fs-4">About Us</p>
+                            <p class="fonts-bold fs-4 d-flex justify-content-center">About Us</p>
                             <p>Kami adalah sumber informasi kesehatan desa yang andal, <br>
                                 menyediakan jadwal klinik dan hasil pemantauan <br>kesehatan untuk meningkatkan
                                 kesejahteraan

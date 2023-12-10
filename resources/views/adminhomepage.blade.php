@@ -14,9 +14,6 @@
     <link rel="stylesheet" href="homepageStyle.css">
     <title>Home Page</title>
 
-
-
-
 </head>
 
 <body>
@@ -63,7 +60,6 @@
                         <div class="animationTeks1 " id="">
                             <section class="about-section" id="">
                                 <h1>
-                                
                                     <span class="black">Satukan Langkah </span><br>
                                     <span class="red">Wujudkan Kesehatan</span><br>
                                     <span class="black">Yang Lebih Baik </span>
@@ -73,7 +69,7 @@
                             <p class="text-center text-lg-start fs-4">
                             Kami memimpin langkah untuk kesehatan yang lebih baik. Bersama-sama, kami memantau layanan kesehatan, memberikan informasi terpercaya, dan memberikan bantuan pertama. Satukan langkah dengan kami menuju kesehatan yang lebih baik di desa kita.
                             </p>
-                            <!-- <button class="btn btn-danger mt-3"onclick="window.location.href='{{ route('jadwal') }}'"><b>Cek Jadwal</b></button> -->
+
                         </div>
                     </div>
                 </div>
@@ -246,16 +242,11 @@
     </div>
 
 
+    <!-- <img id="background-image" src="img\Homepage\backgroundelipse1.png" alt="Background Image"> -->
+    <section id="background-section">
+        <img id="background-image" src="img\Homepage\backgroundelipse1.png" alt="Background Image">
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
-    <script>
-         $(document).ready(function(){
-            $('.carousel').carousel();
-          });	
-    </script>
-
 </body>
 
 </html>

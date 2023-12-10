@@ -334,22 +334,17 @@ body {
     flex-wrap: wrap; /* Memungkinkan card melintasi baris */
     justify-content: center; /* Untuk memusatkan card */
     gap: 10px; /* Jarak antara card */
+    padding-bottom: 10px;
+    margin-top: 20px;
 }
-
+/* 
 .information-section .card{
     height: 40rem; 
 
-}
+} */
 
 .information-section .card {
     background-color: #F3E8E6;
-    /* padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-    margin: 10px; 
-    max-width: 400px;
-    max-height: 300px; */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -365,8 +360,7 @@ body {
 
 .Hospital_detail{
     text-align: justify;
-    /* margin: 40px;
-    margin-left: 23px; */
+    margin-bottom: 20px;
 }
 
   .caution-section {

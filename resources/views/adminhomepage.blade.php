@@ -140,7 +140,7 @@
 
                 <div class="col mb-3 d-flex justify-content-center">
                 <a href="{{ route('puskesmasadmin') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                        <img src="/img/Homepage/posyandu-icon.png" class="card-img-top mx-auto d-block" alt="Card 1"
                             style="width: 30%;">
                         <div class="card-body">
                             <p class="card-text "><b>Monitoring Posyandu</b></p>
@@ -150,8 +150,8 @@
 
                 <div class="col mb-3 d-flex justify-content-center">
                 <a href="{{ route('klinikadmin') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
-                            style="width: 30%;">
+                        <img src="/img/Homepage/clinic-icon.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                            style="width: 45%;">
                         <div class="card-body">
                             <p class="card-text "><b>Monitoring Klinik</b></p>
                         </div>
@@ -160,7 +160,7 @@
 
                 <div class="col mb-3 d-flex justify-content-center">
                 <a href="{{ route('lansiaadmin') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                        <img src="/img/Homepage/lansia-icon.png" class="card-img-top mx-auto d-block" alt="Card 1"
                             style="width: 30%;">
                         <div class="card-body">
                             <p class="card-text "><b>Monitoring Lansia</b></p>
@@ -170,7 +170,7 @@
 
                 <div class="col mb-3 d-flex justify-content-center">
                 <a href="{{ route('hamiladmin') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                        <img src="/img/Homepage/hamil-icon.png" class="card-img-top mx-auto d-block" alt="Card 1"
                             style="width: 30%;">
                         <div class="card-body">
                             <p class="card-text "><b>Monitoring Ibu Hamil</b></p>
@@ -194,8 +194,8 @@
                 
             <div class="col mb-3 d-flex justify-content-center">
                     <a href="{{ route('admin.maps') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
-                            style="width: 30%;">
+                        <img src="/img/Homepage/icon-rs.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                            style="width: 45%;">
                         <div class="card-body">
                             <p class="card-text "><b>Alamat Rumah Sakit</b></p>
                         </div>
@@ -204,7 +204,7 @@
 
                 <div class="col mb-3 d-flex justify-content-center">
                 <a href="{{ route('admin.jadwal.index') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                        <img src="/img/Homepage/jadwal-icon.png" class="card-img-top mx-auto d-block" alt="Card 1"
                             style="width: 30%;">
                         <div class="card-body">
                             <p class="card-text "><b>Jadwal Klinik</b></p>

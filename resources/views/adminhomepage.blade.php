@@ -36,11 +36,6 @@
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <span class="navbar-text">
-                            <div class="ml-auto">
-                                <button class="login-button" onclick="window.location.href='/login'" role="button">Log in</button>
-                            </div>
-                        </span>
                     </div>
                 </div>
         </nav>

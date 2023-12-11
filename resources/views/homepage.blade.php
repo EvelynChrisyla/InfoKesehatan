@@ -140,8 +140,8 @@
             <div class="card-container row row-cols-1 row-cols-md-4 g-4 justify-content-center ">
                 <div class="col mb-3 d-flex justify-content-center">
                     <a href="{{ route('informasiklinik') }}" class="card text-center text-decoration-none w-75 h-100">
-                        <img src="/img/Homepage/card1.png" class="card-img-top mx-auto d-block" alt="Card 1"
-                            style="width: 30%;">
+                        <img src="/img/Homepage/icon-rs.png" class="card-img-top mx-auto d-block" alt="Card 1"
+                            style="width: 70%;">
                         <div class="card-body">
                             <p class="card-text "><b>Informasi Klinik</b></p>
                         </div>
@@ -162,7 +162,7 @@
             <div class="card-container card-group gap-5 container-fluid">
                 <!-- Card section for Posyandu -->
                 <div class="card rounded-4">
-                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
+                    <img src="/img/Homepage/posyandu-icon.png" alt="RS Sentosa" style="width:30%;">
                     <b>Posyandu</b>
                     <div class="Hospital_detail">
                         <br>
@@ -181,7 +181,7 @@
                 </div>
 
                 <div class="card rounded-4">
-                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
+                    <img src="/img/Homepage/clinic-icon.png" alt="RS Sentosa" style="width:45%;">
                     <b>Klinik</b>
                     <div class="Hospital_detail">
                         <br>
@@ -202,7 +202,7 @@
                 <div class="w-100"></div>
 
                 <div class="card rounded-4">
-                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
+                    <img src="/img/Homepage/lansia-icon.png" alt="RS Sentosa" style="width:40%;">
                     <b>Lansia</b>
                     <div class="Hospital_detail">
                         <br>
@@ -219,7 +219,7 @@
                     </div>
                 </div>
                 <div class="card rounded-4">
-                    <img src="/img/Homepage/asset5.png" alt="RS Sentosa" style="width:30%;">
+                    <img src="/img/Homepage/hamil-icon.png" alt="RS Sentosa" style="width:40%;">
                     <b>Ibu Hamil</b>
                     <div class="Hospital_detail">
                         <br>

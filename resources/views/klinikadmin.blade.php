@@ -23,7 +23,7 @@
                 @foreach($klinikData as $data)
                     <tr>
                         <td>{{ $data->diabetes }}</td>
-                        <td>{{ $data->tbc }}</td>
+                        <td>{{ $data->dbd }}</td>
                         <td>{{ $data->covid }}</td>
                         <td>{{ $data->tbc }}</td>
                         <td>

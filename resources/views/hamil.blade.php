@@ -2,7 +2,7 @@
 
 @section('konten')
 <div class="text-center">
-    <h1>Form Data Hamil</h1>
+    <h1>Form Data Ibu Hamil</h1>
 </div>
 <!-- START FORM -->
 

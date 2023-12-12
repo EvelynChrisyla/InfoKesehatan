@@ -32,7 +32,7 @@
         <div class="mb-3 row">
             <label for="lansia" class="col-sm-2 col-form-label">Total Lansia</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name='lansia' id="lansia" required>
+                <input type="text" class="form-control" name='total' id="total" required>
             </div>
         </div>
         <div class="mb-3 row">

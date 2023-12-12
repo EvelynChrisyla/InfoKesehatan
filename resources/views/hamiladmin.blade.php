@@ -2,7 +2,7 @@
 
 @section('konten')
     <div class="text-center">
-        <h1>Data Hamil</h1>
+        <h1>Data Ibu Hamil</h1>
         <a href="{{ url('adminhomepage') }}" class="btn btn-secondary mb-3">Back to Admin Home</a>
         <a href="{{ route('create.hamil') }}" class="btn btn-primary mb-3">+ Add Data</a>
     </div>

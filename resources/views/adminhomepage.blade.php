@@ -36,6 +36,7 @@
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
+                        <p class="text-end">Admin.Monitoring</p>
                     </div>
                 </div>
         </nav>

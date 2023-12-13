@@ -1,3 +1,6 @@
+<head>
+    <title>Posyandu</title>
+</head>
 @extends('layout.template')
 
 @section('konten')

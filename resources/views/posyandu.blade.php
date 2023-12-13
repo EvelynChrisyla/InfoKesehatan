@@ -1,3 +1,6 @@
+<head>
+    <title>Form Monitoring Posyandu</title>
+</head>
 @extends('layout.template')
 
 @section('konten')

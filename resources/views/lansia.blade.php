@@ -1,3 +1,6 @@
+<head>
+    <title>Form Monitoring Lansia</title>
+</head>
 @extends('layout.template')
 
 @section('konten')

@@ -1,3 +1,6 @@
+<head>
+    <title>Form Monitoring Ibu Hamil</title>
+</head>
 @extends('layout.template')
 
 @section('konten')

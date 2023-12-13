@@ -1,3 +1,6 @@
+<head>
+    <title>Form Monitoring Klinik</title>
+</head>
 @extends('layout.template')
 
 @section('konten')

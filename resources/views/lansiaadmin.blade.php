@@ -1,3 +1,6 @@
+<head>
+    <title>Ibu Hamil</title>
+</head>
 @extends('layout.template')
 
 @section('konten')

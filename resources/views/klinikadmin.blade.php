@@ -1,4 +1,6 @@
-@extends('layout.template')
+<head>
+    <title>Klinik</title>
+</head>@extends('layout.template')
 
 @section('konten')
     <div class="text-center">
